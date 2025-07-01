@@ -1,0 +1,4694 @@
+[
+  {
+    "source_file": "Screenshot_100.png",
+    "extracted_text": "       TRICKSTER II | Beast, Ranged unit    | Strength: 1,150,000 @ Health: 3,450,000 i Dominance: 52 Speed: 27 Initiative: 10 Food consumption: 1,040 Carrying capacity: 10,400 Revival cost after an attack: 832 Gold Revival cost after defending: 8320 Silver",
+    "name": "TRICKSTER II",
+    "unit_types": ["Beast", "Ranged"],
+    "cost_type": "Dominance",
+    "health": 3450000,
+    "strength": 1150000,
+    "leadership_cost": 0,
+    "dominance_cost": 52,
+    "authority_cost": 0,
+    "food_consumption": 1040,
+    "carrying_capacity": 10400,
+    "revival_cost_gold": 832,
+    "revival_cost_silver": 8320,
+    "extraction_phases": {
+      "name": {
+        "name": "TRICKSTER II",
+        "text": "       TRICKSTER II",
+        "confidence": 92.4,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Ranged"],
+        "text": "Beast, Ranged unit   ",
+        "confidence": 94.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3450000,
+          "strength": 1150000,
+          "leadership_cost": 0,
+          "dominance_cost": 52,
+          "authority_cost": 0,
+          "food_consumption": 1040,
+          "carrying_capacity": 10400,
+          "revival_cost_gold": 832,
+          "revival_cost_silver": 8320
+        },
+        "text": "Strength: 1,150,000 @ Health: 3,450,000 i Dominance: 52 Speed: 27 Initiative: 10 Food consumption: 1,040 Carrying capacity: 10,400 Revival cost after an attack: 832 Gold Revival cost after defending: 8320 Silver",
+        "confidence": 92.96774193548387,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_10.png",
+    "extracted_text": "     SPEARMAN V | Guardsman, Human, Melee unit  | Strength: 520 @ Health: 1,560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SPEARMAN V",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 1560,
+    "strength": 520,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SPEARMAN V",
+        "text": "     SPEARMAN V",
+        "confidence": 93.25,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit ",
+        "confidence": 94.6,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1560,
+          "strength": 520,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 520 @ Health: 1,560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.73333333333333,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_101.png",
+    "extracted_text": "        EPIC MONSTER HUNTER VI | | Epic Monster Hunter, Guardsman | & Strength: 2,030 @ Health: 6,090 Authority: 1 Speed: 54 initiative: 30 Carrying capacity: 100 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "EPIC MONSTER HUNTER VI",
+    "unit_types": ["Epic Monster Hunter", "Guardsman"],
+    "cost_type": "Mercenary",
+    "health": 6090,
+    "strength": 2030,
+    "leadership_cost": 0,
+    "dominance_cost": 0,
+    "authority_cost": 1,
+    "food_consumption": 0,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "EPIC MONSTER HUNTER VI",
+        "text": "        EPIC MONSTER HUNTER VI",
+        "confidence": 94.875,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Monster", "Epic Monster Hunter"],
+        "text": "| Epic Monster Hunter, Guardsman",
+        "confidence": 90.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 6090,
+          "strength": 2030,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 1,
+          "food_consumption": 0,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "& Strength: 2,030 @ Health: 6,090 Authority: 1 Speed: 54 initiative: 30 Carrying capacity: 100 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.07142857142857,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_1.png",
+    "extracted_text": "  ARCHER | |     Guardsman, Human, Ranged unit  | && Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 20 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "ARCHER I",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 150,
+    "strength": 50,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "ARCHER",
+        "text": "  ARCHER |",
+        "confidence": 94.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "    Guardsman, Human, Ranged unit ",
+        "confidence": 95.14285714285714,
+        "method": "phased_types_extraction_clahe_enhancement_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 150,
+          "strength": 50,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "&& Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 20 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.58064516129032,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_12.png",
+    "extracted_text": "RIDER II  | Guardsman, Human, Mounted unit |     Strength: 180 @ Health: 540   Leadership: 2 speed: 66   Food consumption: 10 Carrying capacity: Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver   ",
+    "name": "RIDER II",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 540,
+    "strength": 180,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 0,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDER II",
+        "text": "RIDER II ",
+        "confidence": 87.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 92.25,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 540,
+          "strength": 180,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 0,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "    Strength: 180 @ Health: 540   Leadership: 2 speed: 66   Food consumption: 10 Carrying capacity: Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver   ",
+        "confidence": 90.02941176470588,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_14.png",
+    "extracted_text": "      RIDER IV | Guardsman, Human, Mounted unit |     f&& Strength: 580 @ Health: 1,740   Leadership: 2 Speed: 54   Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "RIDER IV",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 1740,
+    "strength": 580,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDER IV",
+        "text": "      RIDER IV",
+        "confidence": 90.6,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 93.5,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1740,
+          "strength": 580,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "    f&& Strength: 580 @ Health: 1,740   Leadership: 2 Speed: 54   Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.33333333333333,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_17.png",
+    "extracted_text": "BATTLE GRIFFIN VI  | | Beast, Flying unit, Guardsman |   Strength: 19,000 @ Health: 57,000   Leadership: 20 Speed: 54 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver ",
+    "name": "BATTLE GRIFFIN VI",
+    "unit_types": ["Guardsman", "Beast", "Flying"],
+    "cost_type": "Leadership",
+    "health": 57000,
+    "strength": 19000,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "BATTLE GRIFFIN VI",
+        "text": "BATTLE GRIFFIN VI ",
+        "confidence": 95.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Beast", "Flying"],
+        "text": "| Beast, Flying unit, Guardsman",
+        "confidence": 95.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 57000,
+          "strength": 19000,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "  Strength: 19,000 @ Health: 57,000   Leadership: 20 Speed: 54 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver ",
+        "confidence": 88.77142857142857,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_16.png",
+    "extracted_text": "BATTLE GRIFFIN V  | | Beast, Flying unit, Guardsman |       Strength: 10,000 @ Health: 30,000   Leadership: 20 Speed: 60 Initiative: t0 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver",
+    "name": "BATTLE GRIFFIN V",
+    "unit_types": ["Guardsman", "Beast", "Flying"],
+    "cost_type": "Leadership",
+    "health": 30000,
+    "strength": 10000,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "BATTLE GRIFFIN V",
+        "text": "BATTLE GRIFFIN V ",
+        "confidence": 93.75,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Beast", "Flying"],
+        "text": "| Beast, Flying unit, Guardsman",
+        "confidence": 89.6,
+        "method": "phased_types_extraction"
+      },
+      "stats": {
+        "stats": {
+          "health": 30000,
+          "strength": 10000,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "      Strength: 10,000 @ Health: 30,000   Leadership: 20 Speed: 60 Initiative: t0 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver",
+        "confidence": 90.11428571428571,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_19.png",
+    "extracted_text": "  HEAVY ARBALESTER VI | Guardsman, Human, Ranged unit (& Strength: 940 @ Health: 2,820 | & Strength: 940 i @ Health: 2,820 Leadership: 1 Speed: 36 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "HEAVY ARBALESTER VI",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 2820,
+    "strength": 940,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY ARBALESTER VI",
+        "text": "  HEAVY ARBALESTER VI",
+        "confidence": 89.25,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "Guardsman, Human, Ranged unit (& Strength: 940 @ Health: 2,820",
+        "confidence": 92.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2820,
+          "strength": 940,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "& Strength: 940 i @ Health: 2,820 Leadership: 1 Speed: 36 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.71875,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_2.png",
+    "extracted_text": "ARCHER II | Guardsman, Human, Ranged unit  | Strength: 90 @ Health: 270 Leadership: 1 Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "ARCHER II",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 270,
+    "strength": 90,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "ARCHER II",
+        "text": "ARCHER II",
+        "confidence": 87.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "Guardsman, Human, Ranged unit ",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 270,
+          "strength": 90,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 90 @ Health: 270 Leadership: 1 Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 90.63333333333334,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_20.png",
+    "extracted_text": "      HEAVY ARBALESTER VIL | i Guardsman, Human, Ranged unit | @& Strength: 1,700 @ Health: 5,100 Speed: 33 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "HEAVY ABRALESTER VII",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY ARBALESTER VII",
+        "text": "      HEAVY ARBALESTER VIL",
+        "confidence": 90.4,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged", "I Guardsman"],
+        "text": "i Guardsman, Human, Ranged unit",
+        "confidence": 90.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5100,
+          "strength": 1700,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 1,700 @ Health: 5,100 Speed: 33 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.62068965517241,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_21.png",
+    "extracted_text": "HEAVY HALBERDIER VI | Guardsman, Human, Melee unit | & Strength: 940 4 @ Health: 2,820 Leadership: 1 Speed: 36 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "HEAVY HALBERDIER VI",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 2820,
+    "strength": 940,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY HALBERDIER VI",
+        "text": "HEAVY HALBERDIER VI",
+        "confidence": 93.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit",
+        "confidence": 96.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2820,
+          "strength": 940,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "& Strength: 940 4 @ Health: 2,820 Leadership: 1 Speed: 36 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.9375,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_22.png",
+    "extracted_text": "      HEAVY HALBERDIER VIL | i Guardsman, Human, Melee unit | @& Strength: 1,700 @ Health: 5,100 | Speed: 33 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "HEAVY HALBERDIER VII",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY HALBERDIER ",
+        "text": "      HEAVY HALBERDIER VIL",
+        "confidence": 89.6,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee", "I Guardsman"],
+        "text": "i Guardsman, Human, Melee unit",
+        "confidence": 91.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5100,
+          "strength": 1700,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 1,700 @ Health: 5,100 | Speed: 33 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.8,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_23.png",
+    "extracted_text": "    MOUNTED KNIGHT VI | Guardsman, Human, Mounted unit | Strength: 1,900 ‘ @ Health: 5,700 Leadership: 2 Speed: 43 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "MOUNTED KNIGHT VI",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 5700,
+    "strength": 1900,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "MOUNTED KNIGHT VI",
+        "text": "    MOUNTED KNIGHT VI",
+        "confidence": 91.4,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5700,
+          "strength": 1900,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "Strength: 1,900 ‘ @ Health: 5,700 Leadership: 2 Speed: 43 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 91.06451612903226,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_24.png",
+    "extracted_text": "      MOUNTED KNIGHT VIL | Guardsman, Human, Mounted unit |   oe Ne G@ Strength: 3,400 @ Health: 10,200   Leadership: 2 Speed: 39 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "MOUNTED KNIGHT VII",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 10200,
+    "strength": 3400,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "MOUNTED KNIGHT ",
+        "text": "      MOUNTED KNIGHT VIL",
+        "confidence": 95.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 92.75,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 10200,
+          "strength": 3400,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "  oe Ne G@ Strength: 3,400 @ Health: 10,200   Leadership: 2 Speed: 39 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 88.94285714285714,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_25.png",
+    "extracted_text": "        PURIFIER | | Guardsman, Human, Ranged unit | q @& Strength: 3,060 @ Health: 9,180 | Speed: 30 tnitiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "PURIFIER I",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 9180,
+    "strength": 3060,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "PURIFIER",
+        "text": "        PURIFIER |",
+        "confidence": 94.2,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "Guardsman, Human, Ranged unit",
+        "confidence": 95.75,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 9180,
+          "strength": 3060,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "q @& Strength: 3,060 @ Health: 9,180 | Speed: 30 tnitiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 90.12903225806451,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_28.png",
+    "extracted_text": "PUNISHER II  | | Guardsman, Human, Melee unit | @& Strength: 5,510 A @ Health: 16,530 Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "PUNISHER II",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 16530,
+    "strength": 5510,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "PUNISHER II",
+        "text": "PUNISHER II ",
+        "confidence": 93.33333333333333,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "| Guardsman, Human, Melee unit",
+        "confidence": 94.2,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 16530,
+          "strength": 5510,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 5,510 A @ Health: 16,530 Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.59375,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_26.png",
+    "extracted_text": "PURIFIER IL  | Guardsman. Human, Ranged unit |   + Nt + (G& Strength: 5,510 @ Health: 16,530   Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver ",
+    "name": "PURIFIER II",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 16530,
+    "strength": 5510,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "PURIFIER ",
+        "text": "PURIFIER IL ",
+        "confidence": 90.66666666666667,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "Guardsman. Human, Ranged unit",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 16530,
+          "strength": 5510,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  + Nt + (G& Strength: 5,510 @ Health: 16,530   Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver ",
+        "confidence": 88.85714285714286,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_29.png",
+    "extracted_text": "    SMITER | | @ Strength: 6,120 @ Health: 18,360 | &@ Strength: 6,120 @ Health: 18,360 Leadership: 2 Speed: 35 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "SMITER I",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 18360,
+    "strength": 6120,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "SMITER",
+        "text": "    SMITER |",
+        "confidence": 93.5,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Strength"],
+        "text": "@ Strength: 6,120 @ Health: 18,360",
+        "confidence": 85.33333333333333,
+        "method": "phased_types_extraction"
+      },
+      "stats": {
+        "stats": {
+          "health": 18360,
+          "strength": 6120,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "&@ Strength: 6,120 @ Health: 18,360 Leadership: 2 Speed: 35 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.12903225806451,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_30.png",
+    "extracted_text": "       SMITER IT | Guardsman, Human, Mounted unit    | (&& Strength: 11,020 @ Health: 33,060 Leadership: 2 Speed: 32 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 silver",
+    "name": "SMITER II",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 33060,
+    "strength": 11020,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "SMITER ",
+        "text": "       SMITER IT",
+        "confidence": 93.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit   ",
+        "confidence": 95.33333333333333,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 33060,
+          "strength": 11020,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "(&& Strength: 11,020 @ Health: 33,060 Leadership: 2 Speed: 32 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 silver",
+        "confidence": 91.12903225806451,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_3.png",
+    "extracted_text": "ARCHER III  | | Guardsman, Human, Ranged unit | @& Strength: 160 @ Health: 480 Speed: 50 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "ARCHER III",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 480,
+    "strength": 160,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "ARCHER III",
+        "text": "ARCHER III ",
+        "confidence": 91.66666666666667,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "| Guardsman, Human, Ranged unit",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 480,
+          "strength": 160,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 160 @ Health: 480 Speed: 50 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.62068965517241,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_32.png",
+    "extracted_text": "CORAX II  | Flying unit, Guardsman, Human 1      Strength: 110,200 @ Health: 330,600  | Strength: 110,200 @ Health: 330,600   Leadership: 20 Speed: 40 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver",
+    "name": "CORAX II",
+    "unit_types": ["Guardsman", "Human", "Flying"],
+    "cost_type": "Leadership",
+    "health": 330600,
+    "strength": 110200,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "CORAX II",
+        "text": "CORAX II ",
+        "confidence": 89.66666666666667,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Flying"],
+        "text": "Flying unit, Guardsman, Human 1      Strength: 110,200 @ Health: 330,600 ",
+        "confidence": 93.76923076923077,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 330600,
+          "strength": 110200,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "Strength: 110,200 @ Health: 330,600   Leadership: 20 Speed: 40 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver",
+        "confidence": 89.59375,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_33.png",
+    "extracted_text": "  SWORDSMAN | | Human, Melee unit, Specialist | & Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SWORDSMAN I",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 150,
+    "strength": 50,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SWORDSMAN",
+        "text": "  SWORDSMAN |",
+        "confidence": 94.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist",
+        "confidence": 95.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 150,
+          "strength": 50,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "& Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.78125,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_34.png",
+    "extracted_text": "SWORDSMAN II  | Human, Melee unit, Specialist     && Strength: 90 @ Health: 270  | @& Strength: 90 @ Health: 270 Leadership: 1 Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SWORDSMAN II",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 270,
+    "strength": 90,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SWORDSMAN II",
+        "text": "SWORDSMAN II ",
+        "confidence": 90.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist     && Strength: 90 @ Health: 270 ",
+        "confidence": 91.84615384615384,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 270,
+          "strength": 90,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 90 @ Health: 270 Leadership: 1 Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.09677419354838,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_36.png",
+    "extracted_text": "SWORDSMAN IV  | Human, Melee unit, Specialist |   Strength: 290 @ Health: 870       Leadershi Speed: 45   Food consumption: § Carrying capacity: Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver   + FEATURES",
+    "name": "SWORDSMAN IV",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 870,
+    "strength": 290,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 0,
+    "carrying_capacity": 0,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SWORDSMAN IV",
+        "text": "SWORDSMAN IV ",
+        "confidence": 95.33333333333333,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 870,
+          "strength": 290,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 0,
+          "carrying_capacity": 0,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  Strength: 290 @ Health: 870       Leadershi Speed: 45   Food consumption: § Carrying capacity: Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver   + FEATURES",
+        "confidence": 89.31428571428572,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_35.png",
+    "extracted_text": "        SWORDSMAN III | | Human, Melee unit, Specialist | && Strength: 160 @ Health: 480 i Leadership: 1 Speed: 50 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SWORDSMAN III",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 480,
+    "strength": 160,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SWORDSMAN III",
+        "text": "        SWORDSMAN III",
+        "confidence": 90.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "| Human, Melee unit, Specialist",
+        "confidence": 93.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 480,
+          "strength": 160,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "&& Strength: 160 @ Health: 480 i Leadership: 1 Speed: 50 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.25,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_4.png",
+    "extracted_text": "ARCHER IV  | | Guardsman, Human, Ranged unit | Strength: 290 @ Health: 870 Leadership: 1 Speed: 45 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "ARCHER IV",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 870,
+    "strength": 290,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "ARCHER IV",
+        "text": "ARCHER IV ",
+        "confidence": 91.66666666666667,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "| Guardsman, Human, Ranged unit",
+        "confidence": 95.2,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 870,
+          "strength": 290,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 290 @ Health: 870 Leadership: 1 Speed: 45 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 91.93333333333334,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_37.png",
+    "extracted_text": "  SWORDSMAN V | Human, Melee unit, Specialist | & Strength: 520 @ Health: 1.560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SWORDSMAN V",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 1560,
+    "strength": 520,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SWORDSMAN V",
+        "text": "  SWORDSMAN V",
+        "confidence": 93.66666666666667,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist",
+        "confidence": 94.5,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1560,
+          "strength": 520,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "& Strength: 520 @ Health: 1.560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 90.0,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_38.png",
+    "extracted_text": "spy |  | Human, Scout, Specialist |     & Strength: 25 @ Health: 75   Leadership: 5 Speed: 243 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver « BONUSFS®",
+    "name": "SPY I",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 75,
+    "strength": 25,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "SPY",
+        "text": "spy | ",
+        "confidence": 87.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "Human, Scout, Specialist",
+        "confidence": 95.66666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 75,
+          "strength": 25,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "    & Strength: 25 @ Health: 75   Leadership: 5 Speed: 243 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver « BONUSFS®",
+        "confidence": 88.02777777777777,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_39.png",
+    "extracted_text": "      Nie! | | Human, Scout, Specialist |     Strength: 45 @ Health: 135   Leadership: 5   Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver + BONUSES ©",
+    "name": "SPY II",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 135,
+    "strength": 45,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "NIE",
+        "text": "      Nie!",
+        "confidence": 82.75,
+        "method": "Top 6.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "| Human, Scout, Specialist",
+        "confidence": 91.75,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 135,
+          "strength": 45,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "    Strength: 45 @ Health: 135   Leadership: 5   Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver + BONUSES ©",
+        "confidence": 88.72727272727273,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_40.png",
+    "extracted_text": "SPY Ill  | | Human, Scout, Specialist | | & Strength: 80 @ Health: 240 Leadership: 5 Speed: 197 Initiative: 30 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+    "name": "SPY III",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 240,
+    "strength": 80,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "SPY ",
+        "text": "SPY Ill ",
+        "confidence": 82.33333333333333,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "| Human, Scout, Specialist |",
+        "confidence": 90.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 240,
+          "strength": 80,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "& Strength: 80 @ Health: 240 Leadership: 5 Speed: 197 Initiative: 30 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+        "confidence": 88.93548387096774,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_41.png",
+    "extracted_text": "eon,  | Human, Scout, Specialist     (& Strength: 150 @ Health: 450  | & Strength: 150 @ Health: 450 Leadership: 5 Speed: 177 Initiative: 30 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+    "name": "SPY IV",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 450,
+    "strength": 150,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "EON",
+        "text": "eon, ",
+        "confidence": 75.5,
+        "method": "Top 5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "Human, Scout, Specialist     (& Strength: 150 @ Health: 450 ",
+        "confidence": 90.25,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 450,
+          "strength": 150,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "& Strength: 150 @ Health: 450 Leadership: 5 Speed: 177 Initiative: 30 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+        "confidence": 89.19354838709677,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_42.png",
+    "extracted_text": "  \\ NSS | Human, Scout, Specialist Strength: 260 @ Health: 780 | & Strength: 260 @ Health: 780 Leadership: 5 Speed: 159 Initiative: 10 Food consumption: 25, Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver «BONUSES ®",
+    "name": "SPY V",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 780,
+    "strength": 260,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "NSS",
+        "text": "  \\ NSS",
+        "confidence": 66.25,
+        "method": "Top 8.3% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout", "Specialist Strength"],
+        "text": "Human, Scout, Specialist Strength: 260 @ Health: 780",
+        "confidence": 91.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 780,
+          "strength": 260,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "& Strength: 260 @ Health: 780 Leadership: 5 Speed: 159 Initiative: 10 Food consumption: 25, Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver «BONUSES ®",
+        "confidence": 88.12121212121212,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_43.png",
+    "extracted_text": "  DEADSHOT V | | Human, Ranged unit, Specialist | & Strength: 520 @ Health: 1.560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "DEADSHOT V",
+    "unit_types": ["Human", "Ranged", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 1560,
+    "strength": 520,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "DEADSHOT V",
+        "text": "  DEADSHOT V",
+        "confidence": 77.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Ranged", "Specialist"],
+        "text": "| Human, Ranged unit, Specialist",
+        "confidence": 92.2,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1560,
+          "strength": 520,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "& Strength: 520 @ Health: 1.560 Leadership: 1 Speed: 40 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 90.0,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_44.png",
+    "extracted_text": "DEADSHOT VI  | Human, Ranged unit, Specialist | Strength: 940 @ Health: 2,820       Carrying capa Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver as",
+    "name": "DEADSHOT VI",
+    "unit_types": ["Human", "Ranged", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 2820,
+    "strength": 940,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 0,
+    "carrying_capacity": 0,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "DEADSHOT VI",
+        "text": "DEADSHOT VI ",
+        "confidence": 94.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Ranged", "Specialist"],
+        "text": "Human, Ranged unit, Specialist",
+        "confidence": 90.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2820,
+          "strength": 940,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 0,
+          "carrying_capacity": 0,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 940 @ Health: 2,820       Carrying capa Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver as",
+        "confidence": 90.56521739130434,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_45.png",
+    "extracted_text": "       DEADSHOT VII |   Human, Ranged unit, Specialist  | @& Strength: 1,700 @ Health: 5,100 Speed: 33 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "DEADSHOT VII",
+    "unit_types": ["Human", "Ranged", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "DEADSHOT VII",
+        "text": "       DEADSHOT VII",
+        "confidence": 92.4,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Ranged", "Specialist"],
+        "text": "  Human, Ranged unit, Specialist ",
+        "confidence": 92.16666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5100,
+          "strength": 1700,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 1,700 @ Health: 5,100 Speed: 33 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.62068965517241,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_47.png",
+    "extracted_text": "LION RIDER VI  | Human, Mounted unit, Specialist | |     Strength: 1,900 @ Health: 5,700     Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver ",
+    "name": "LION RIDER VI",
+    "unit_types": ["Human", "Mounted", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 5700,
+    "strength": 1900,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "LION RIDER VI",
+        "text": "LION RIDER VI ",
+        "confidence": 95.25,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Mounted", "Specialist"],
+        "text": "Human, Mounted unit, Specialist |",
+        "confidence": 93.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5700,
+          "strength": 1900,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "    Strength: 1,900 @ Health: 5,700     Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver ",
+        "confidence": 91.46666666666667,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_46.png",
+    "extracted_text": "  LION RIDER V | Human, Mounted unit, Specialist | @& Strength: 1,050 @ Health: 3,150 Leadership: 2 Speed: 48 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "LION RIDER V",
+    "unit_types": ["Human", "Mounted", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 3150,
+    "strength": 1050,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "LION RIDER V",
+        "text": "  LION RIDER V",
+        "confidence": 92.5,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Mounted", "Specialist"],
+        "text": "Human, Mounted unit, Specialist",
+        "confidence": 94.5,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3150,
+          "strength": 1050,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "@& Strength: 1,050 @ Health: 3,150 Leadership: 2 Speed: 48 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.06451612903226,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_48.png",
+    "extracted_text": "LION RIDER VII |     @ Health: 10,200 | Strength: 3,400 @ Health: 10,200 Leadership: 2 Speed: 39 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "LION RIDER VII",
+    "unit_types": ["Human", "Mounted", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 10200,
+    "strength": 3400,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "LION RIDER VII",
+        "text": "LION RIDER VII",
+        "confidence": 93.33333333333333,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Health"],
+        "text": "    @ Health: 10,200",
+        "confidence": 93.2,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 10200,
+          "strength": 3400,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "Strength: 3,400 @ Health: 10,200 Leadership: 2 Speed: 39 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.35483870967742,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_5.png",
+    "extracted_text": "       ARCHER V | Guardsman, Human, Ranged unit |     &@ Strength: 520 @ Health: 1,560     Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "ARCHER V",
+    "unit_types": ["Guardsman", "Human", "Ranged"],
+    "cost_type": "Leadership",
+    "health": 1560,
+    "strength": 520,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "ARCHER V",
+        "text": "       ARCHER V",
+        "confidence": 93.6,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Ranged"],
+        "text": "Guardsman, Human, Ranged unit",
+        "confidence": 94.75,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1560,
+          "strength": 520,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "    &@ Strength: 520 @ Health: 1,560     Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 91.24137931034483,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_49.png",
+    "extracted_text": "VULTURE V | Flying unit, Human, Specialist | Strength: 520 ‘ @ Health: 1.560 Leadership: 1 Speed: 60 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "VULTURE V",
+    "unit_types": ["Human", "Flying", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 1560,
+    "strength": 520,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "VULTURE V",
+        "text": "VULTURE V",
+        "confidence": 86.5,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Flying", "Specialist"],
+        "text": "Flying unit, Human, Specialist",
+        "confidence": 93.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1560,
+          "strength": 520,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 520 ‘ @ Health: 1.560 Leadership: 1 Speed: 60 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.3225806451613,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_50.png",
+    "extracted_text": "  VULTURE VI | Flying unit, Human, Specialist | fm Strength: 940 @ Health: 2,820   Leadership: 1 Speed: 54 Initiative: 20 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "VULTURE VI",
+    "unit_types": ["Human", "Flying", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 2820,
+    "strength": 940,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "VULTURE VI",
+        "text": "  VULTURE VI",
+        "confidence": 95.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Flying", "Specialist"],
+        "text": "Flying unit, Human, Specialist",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2820,
+          "strength": 940,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "fm Strength: 940 @ Health: 2,820   Leadership: 1 Speed: 54 Initiative: 20 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.96875,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_51.png",
+    "extracted_text": "  6S fre + | | Flying unit, Human, Specialist | | Strength: 1,700 @ Health: 5,100 | Leadership:1 Speed: 49 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "VULTURE VII",
+    "unit_types": ["Human", "Flying", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "FRE",
+        "text": "  6S fre +",
+        "confidence": 66.5,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Flying", "Specialist"],
+        "text": "| Flying unit, Human, Specialist |",
+        "confidence": 90.5,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5100,
+          "strength": 1700,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 1,700 @ Health: 5,100 | Leadership:1 Speed: 49 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 89.63333333333334,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_53.png",
+    "extracted_text": "HEAVY KNIGHT VII | Human, Melee unit, Specialist    |   &&@ Strength: 1,700 @ Health: 5,100   Leadershi Speed: 33 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver    ",
+    "name": "HEAVY KNIGHT VII",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY KNIGHT VII",
+        "text": "HEAVY KNIGHT VII",
+        "confidence": 58.25,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist   ",
+        "confidence": 95.66666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5100,
+          "strength": 1700,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  &&@ Strength: 1,700 @ Health: 5,100   Leadershi Speed: 33 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver    ",
+        "confidence": 90.37142857142857,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_52.png",
+    "extracted_text": "  HEAVY KNIGHT VI | | Human, Melee unit, Specialist | @& Strength: 940 @ Health: 2,820 | Leadership: 1 Speed: 36 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "HEAVY KNIGHT VI",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 2820,
+    "strength": 940,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "HEAVY KNIGHT VI",
+        "text": "  HEAVY KNIGHT VI",
+        "confidence": 95.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "| Human, Melee unit, Specialist",
+        "confidence": 93.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2820,
+          "strength": 940,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 940 @ Health: 2,820 | Leadership: 1 Speed: 36 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 85.84375,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_54.png",
+    "extracted_text": "  SWIFT JAEGER VI | Human, Scout, Specialist |     &&@ Strength: 470 @ Health: 1,410   Leadership: 5 Speed: 144 Initiative: 10 Food consumption: 25, Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver * BONUSES *",
+    "name": "SWIFT JAEGER VI",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 1410,
+    "strength": 470,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "SWIFT JAEGER VI",
+        "text": "  SWIFT JAEGER VI",
+        "confidence": 90.25,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "Human, Scout, Specialist",
+        "confidence": 95.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1410,
+          "strength": 470,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "    &&@ Strength: 470 @ Health: 1,410   Leadership: 5 Speed: 144 Initiative: 10 Food consumption: 25, Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver * BONUSES *",
+        "confidence": 87.91891891891892,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_59.png",
+    "extracted_text": "WHITEMANE II  | Human, Mounted unit, Specialist     | f&& Strength: 11,020 @ Health: 33,060   Leadership: 2 Speed: 32 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver FEATURES ",
+    "name": "WHITEMANE II",
+    "unit_types": ["Human", "Mounted", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 33060,
+    "strength": 11020,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "WHITEMANE II",
+        "text": "WHITEMANE II ",
+        "confidence": 92.33333333333333,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Mounted", "Specialist"],
+        "text": "Human, Mounted unit, Specialist    ",
+        "confidence": 93.16666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 33060,
+          "strength": 11020,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "f&& Strength: 11,020 @ Health: 33,060   Leadership: 2 Speed: 32 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver FEATURES ",
+        "confidence": 89.94117647058823,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_6.png",
+    "extracted_text": "      SPEARMAN | | Guardsman, Human, Melee unit  | Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SPEARMAN I",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 150,
+    "strength": 50,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SPEARMAN",
+        "text": "      SPEARMAN |",
+        "confidence": 94.2,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit ",
+        "confidence": 94.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 150,
+          "strength": 50,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 50 @ Health: 150 Leadership: 1 Speed: 61 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 91.56666666666666,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_62.png",
+    "extracted_text": "       PANOPTIC | | Human, Scout, Specialist |   ee &@ Strength: 1,530 @ Health: 4,590   Leadership: 5 Speed: 117 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver   e BONUSES",
+    "name": "PANOPTIC I",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 4590,
+    "strength": 1530,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "PANOPTIC",
+        "text": "       PANOPTIC |",
+        "confidence": 92.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "Human, Scout, Specialist",
+        "confidence": 95.0,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 4590,
+          "strength": 1530,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "  ee &@ Strength: 1,530 @ Health: 4,590   Leadership: 5 Speed: 117 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver   e BONUSES",
+        "confidence": 87.94594594594595,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_63.png",
+    "extracted_text": "PANOPTIC IT  | | Human, Scout, Specialist |     &@ Strength: 2,760 @ Health: 8,280   Leadership: 5 Speed: 105 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+    "name": "PANOPTIC II",
+    "unit_types": ["Human", "Specialist", "Scout"],
+    "cost_type": "Leadership",
+    "health": 8280,
+    "strength": 2760,
+    "leadership_cost": 5,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 25,
+    "carrying_capacity": 150,
+    "revival_cost_gold": 20,
+    "revival_cost_silver": 200,
+    "extraction_phases": {
+      "name": {
+        "name": "PANOPTIC ",
+        "text": "PANOPTIC IT ",
+        "confidence": 92.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Specialist", "Scout"],
+        "text": "| Human, Scout, Specialist",
+        "confidence": 90.75,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 8280,
+          "strength": 2760,
+          "leadership_cost": 5,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 25,
+          "carrying_capacity": 150,
+          "revival_cost_gold": 20,
+          "revival_cost_silver": 200
+        },
+        "text": "    &@ Strength: 2,760 @ Health: 8,280   Leadership: 5 Speed: 105 Initiative: 10 Food consumption: 25 Carrying capacity: 150 Revival cost after an attack: 20 Gold Revival cost after defending: 200 Silver",
+        "confidence": 90.47058823529412,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_65.png",
+    "extracted_text": "engine | Engineer corps, Human, Siege engine | strength: 450 @ Health: 2,700 i Leadership: 10 Speed: 47 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "CATAPULT II",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 2700,
+    "strength": 450,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine",
+        "confidence": 96.0,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "Engineer corps, Human, Siege engine",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2700,
+          "strength": 450,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "strength: 450 @ Health: 2,700 i Leadership: 10 Speed: 47 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 91.64516129032258,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_64.png",
+    "extracted_text": "engine      | @& Strength: 250 @ Health: 1,500 |    Gi Strength: 250 @ Health: 1,500   Leadership: 10 Speed: 52 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "CATAPULT I",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 1500,
+    "strength": 250,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine     ",
+        "confidence": 95.25,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Strength"],
+        "text": "@& Strength: 250 @ Health: 1,500",
+        "confidence": 90.83333333333333,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1500,
+          "strength": 250,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "   Gi Strength: 250 @ Health: 1,500   Leadership: 10 Speed: 52 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 90.3030303030303,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_66.png",
+    "extracted_text": "engine  | Engineer corps, Human, Siege engine  |   Strength: 810 @ Health: 4,860   Leadershi     Initiative: t0 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "CATAPULT III",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 4860,
+    "strength": 810,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine ",
+        "confidence": 95.5,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "Engineer corps, Human, Siege engine ",
+        "confidence": 94.83333333333333,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 4860,
+          "strength": 810,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "  Strength: 810 @ Health: 4,860   Leadershi     Initiative: t0 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 89.40625,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_67.png",
+    "extracted_text": "engine | Engineer corps, Human, engine  | (&& Strength: 1,460 @ Health: 8,750 Leadership: 10 Speed: 38 Initiative: to Food consumptign: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "CATAPULT IV",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 8750,
+    "strength": 1460,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 0,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine",
+        "confidence": 96.0,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Engineer Corps", "Engine"],
+        "text": "Engineer corps, Human, engine ",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 8750,
+          "strength": 1460,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 0,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "(&& Strength: 1,460 @ Health: 8,750 Leadership: 10 Speed: 38 Initiative: to Food consumptign: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 89.96774193548387,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_69.png",
+    "extracted_text": "engine    |   engine  |     &@ Strength: 4,730 @ Health: 28,400   Leadership: 10 Speed: 31 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 ",
+    "name": "SIEGE BALLISTAE VI",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 28400,
+    "strength": 4730,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 0,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine   ",
+        "confidence": 95.33333333333333,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Engine"],
+        "text": "  engine ",
+        "confidence": 95.33333333333333,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 28400,
+          "strength": 4730,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 0
+        },
+        "text": "    &@ Strength: 4,730 @ Health: 28,400   Leadership: 10 Speed: 31 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 ",
+        "confidence": 90.20588235294117,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_68.png",
+    "extracted_text": "engine  | Engineer corps, Human, Siege engine | & Strength: 2,630 @ Health: 15,300 Leadership: 10 Speed: 35 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Sitver",
+    "name": "CATAPULT V",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 15300,
+    "strength": 2630,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 0,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine ",
+        "confidence": 95.5,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "Engineer corps, Human, Siege engine",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 15300,
+          "strength": 2630,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 0
+        },
+        "text": "& Strength: 2,630 @ Health: 15,300 Leadership: 10 Speed: 35 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Sitver",
+        "confidence": 88.6774193548387,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_7.png",
+    "extracted_text": "      SPEARMAN I] | Guardsman, Human, Melee unit    |      Strength: 90 @ Health: 270 The damage inflicted by the unit during combat        Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver      ",
+    "name": "SPEARMAN II",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 270,
+    "strength": 90,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SPEARMAN I",
+        "text": "      SPEARMAN I]",
+        "confidence": 89.2,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit   ",
+        "confidence": 93.5,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 270,
+          "strength": 90,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "     Strength: 90 @ Health: 270 The damage inflicted by the unit during combat        Speed: 55 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver      ",
+        "confidence": 91.22727272727273,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_70.png",
+    "extracted_text": "engine  | | Engineer corps, Human, Siege engine |   &&@ Strength: 8,500 @ Health: 51,000   Leadership: 10 Speed: 28 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver  EEATIIDEC",
+    "name": "SIEGE BALLISTAE VII",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 51000,
+    "strength": 8500,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "engine ",
+        "confidence": 95.5,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "| Engineer corps, Human, Siege engine",
+        "confidence": 93.33333333333333,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 51000,
+          "strength": 8500,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "  &&@ Strength: 8,500 @ Health: 51,000   Leadership: 10 Speed: 28 Initiative: 10 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver  EEATIIDEC",
+        "confidence": 88.79411764705883,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_71.png",
+    "extracted_text": "| engine | Engineer corps, Human, Siege engine |     &@ Strength: 15,310 @ Health: 91,300     Initiative: 10 Food consumption; 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "JOSEPHINE I",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 91300,
+    "strength": 15310,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 0,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "| engine",
+        "confidence": 96.0,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "Engineer corps, Human, Siege engine",
+        "confidence": 94.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 91300,
+          "strength": 15310,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 0,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "    &@ Strength: 15,310 @ Health: 91,300     Initiative: 10 Food consumption; 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 88.25,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_72.png",
+    "extracted_text": "  engine | Engineer corps, Human, Siege engine | & Strength: 27,550 @ Health: 165,300 Leadership: 10 Speed: 23 initiative: 30 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+    "name": "JOSEPHINE II",
+    "unit_types": ["Engineer corps", "Human", "Siege engine"],
+    "cost_type": "Leadership",
+    "health": 165300,
+    "strength": 27550,
+    "leadership_cost": 10,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 50,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 40,
+    "revival_cost_silver": 400,
+    "extraction_phases": {
+      "name": {
+        "name": "ENGINE",
+        "text": "  engine",
+        "confidence": 95.5,
+        "method": "Upper-middle section (25% to 33%) - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Siege", "Engineer Corps", "Siege Engine"],
+        "text": "Engineer corps, Human, Siege engine",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 165300,
+          "strength": 27550,
+          "leadership_cost": 10,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 50,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 40,
+          "revival_cost_silver": 400
+        },
+        "text": "& Strength: 27,550 @ Health: 165,300 Leadership: 10 Speed: 23 initiative: 30 Food consumption: 50 Carrying capacity: 100 Revival cost after an attack: 40 Gold Revival cost after defending: 400 Silver",
+        "confidence": 87.16129032258064,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_74.png",
+    "extracted_text": "  ll MAGIC DRAGON  | | Dragon, Ranged unit | & Strength: 15,000 @ Health: 45,000 13 Speed: 45 initiative: 30 Food consumption: 260 Carrying capacity: 2,600 Revival cost after an attack: 208 Gold Revival cost after defending: 2080 Silver",
+    "name": "MAGIC DRAGON",
+    "unit_types": ["Dragon", "Ranged"],
+    "cost_type": "Dominance",
+    "health": 45000,
+    "strength": 15000,
+    "leadership_cost": 0,
+    "dominance_cost": 13,
+    "authority_cost": 0,
+    "food_consumption": 260,
+    "carrying_capacity": 2600,
+    "revival_cost_gold": 208,
+    "revival_cost_silver": 2080,
+    "extraction_phases": {
+      "name": {
+        "name": "LL MAGIC ",
+        "text": "  ll MAGIC DRAGON ",
+        "confidence": 81.6,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Ranged"],
+        "text": "| Dragon, Ranged unit",
+        "confidence": 95.75,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 45000,
+          "strength": 15000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 260,
+          "carrying_capacity": 2600,
+          "revival_cost_gold": 208,
+          "revival_cost_silver": 2080
+        },
+        "text": "& Strength: 15,000 @ Health: 45,000 13 Speed: 45 initiative: 30 Food consumption: 260 Carrying capacity: 2,600 Revival cost after an attack: 208 Gold Revival cost after defending: 2080 Silver",
+        "confidence": 87.7741935483871,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_80.png",
+    "extracted_text": "IcE PHOENIX  | | Elemental. Flying unit | |   &@ Strength: 17,000 @ Health: 51,000     Dominance: 15, Speed: 45 Initiative: 10 Food consumption: 300 Carrying capacity: 3,000 Revival cost after an attack: 240 Gold Revival cost after defending: 2400 Silver",
+    "name": "ICE PHOENIX",
+    "unit_types": ["Flying", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 51000,
+    "strength": 17000,
+    "leadership_cost": 0,
+    "dominance_cost": 15,
+    "authority_cost": 0,
+    "food_consumption": 300,
+    "carrying_capacity": 3000,
+    "revival_cost_gold": 240,
+    "revival_cost_silver": 2400,
+    "extraction_phases": {
+      "name": {
+        "name": "ICE ",
+        "text": "IcE PHOENIX ",
+        "confidence": 86.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Flying"],
+        "text": "| Elemental. Flying unit |",
+        "confidence": 93.4,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 51000,
+          "strength": 17000,
+          "leadership_cost": 0,
+          "dominance_cost": 15,
+          "authority_cost": 0,
+          "food_consumption": 300,
+          "carrying_capacity": 3000,
+          "revival_cost_gold": 240,
+          "revival_cost_silver": 2400
+        },
+        "text": "  &@ Strength: 17,000 @ Health: 51,000     Dominance: 15, Speed: 45 Initiative: 10 Food consumption: 300 Carrying capacity: 3,000 Revival cost after an attack: 240 Gold Revival cost after defending: 2400 Silver",
+        "confidence": 91.88235294117646,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_84.png",
+    "extracted_text": "        FIRE PHOENIX I | Elemental, Flying unit |   Gj Strength: 660,000 @ Health: 1,980,000     Dominance: 54 Speed: 44 Initiative: 10 Food consumption: 1,080 Carrying capacity: 10,800 Revival cost after an attack: 864 Gold Revival cost after defending: 8640 Silver eat",
+    "name": "FIRE PHOENIX I",
+    "unit_types": ["Flying", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 1980000,
+    "strength": 660000,
+    "leadership_cost": 0,
+    "dominance_cost": 54,
+    "authority_cost": 0,
+    "food_consumption": 1080,
+    "carrying_capacity": 10800,
+    "revival_cost_gold": 864,
+    "revival_cost_silver": 8640,
+    "extraction_phases": {
+      "name": {
+        "name": "FIRE PHOENIX I",
+        "text": "        FIRE PHOENIX I",
+        "confidence": 91.14285714285714,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Flying", "Elemental"],
+        "text": "Elemental, Flying unit",
+        "confidence": 91.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1980000,
+          "strength": 660000,
+          "leadership_cost": 0,
+          "dominance_cost": 54,
+          "authority_cost": 0,
+          "food_consumption": 1080,
+          "carrying_capacity": 10800,
+          "revival_cost_gold": 864,
+          "revival_cost_silver": 8640
+        },
+        "text": "  Gj Strength: 660,000 @ Health: 1,980,000     Dominance: 54 Speed: 44 Initiative: 10 Food consumption: 1,080 Carrying capacity: 10,800 Revival cost after an attack: 864 Gold Revival cost after defending: 8640 Silver eat",
+        "confidence": 90.54285714285714,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_9.png",
+    "extracted_text": "  SPEARMAN IV | | Guardsman, Human, Melee unit |     Strength: 290 @ Health: 870   Leadership: 1 Speed: 45   Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver ",
+    "name": "SPEARMAN IV",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 870,
+    "strength": 290,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SPEARMAN IV",
+        "text": "  SPEARMAN IV",
+        "confidence": 91.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "| Guardsman, Human, Melee unit",
+        "confidence": 94.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 870,
+          "strength": 290,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "    Strength: 290 @ Health: 870   Leadership: 1 Speed: 45   Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver ",
+        "confidence": 91.39393939393939,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_91.png",
+    "extracted_text": "       KRAKEN II | Giant, Melee unit    |     Strength: 1,210,000 @ Health: 3,630,000   Dominance: 55 Speed: 27   Food consumption: 1,100 Carrying capacity: 11,000 Revival cost after an attack: 880 Gold Revival cost after defending: 8800 Silver ee",
+    "name": "KRAKEN II",
+    "unit_types": ["Giant", "Melee"],
+    "cost_type": "Dominance",
+    "health": 3630000,
+    "strength": 1210000,
+    "leadership_cost": 0,
+    "dominance_cost": 55,
+    "authority_cost": 0,
+    "food_consumption": 1100,
+    "carrying_capacity": 11000,
+    "revival_cost_gold": 880,
+    "revival_cost_silver": 8800,
+    "extraction_phases": {
+      "name": {
+        "name": "KRAKEN II",
+        "text": "       KRAKEN II",
+        "confidence": 94.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Melee"],
+        "text": "Giant, Melee unit   ",
+        "confidence": 95.2,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3630000,
+          "strength": 1210000,
+          "leadership_cost": 0,
+          "dominance_cost": 55,
+          "authority_cost": 0,
+          "food_consumption": 1100,
+          "carrying_capacity": 11000,
+          "revival_cost_gold": 880,
+          "revival_cost_silver": 8800
+        },
+        "text": "    Strength: 1,210,000 @ Health: 3,630,000   Dominance: 55 Speed: 27   Food consumption: 1,100 Carrying capacity: 11,000 Revival cost after an attack: 880 Gold Revival cost after defending: 8800 Silver ee",
+        "confidence": 90.24242424242425,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_92.png",
+    "extracted_text": "        FIRE PHOENIX II | Elemental, Flying unit  |   Strength: 1,190,000 @ Health: 3,570,000         Food consumption: 1,080 Carrying capacity: 10,800 Revival cost after an attack: 864 Gold Revival cost after defending: 8640 Silver",
+    "name": "FIRE PHOENIX II",
+    "unit_types": ["Flying", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 3570000,
+    "strength": 1190000,
+    "leadership_cost": 0,
+    "dominance_cost": 54,
+    "authority_cost": 0,
+    "food_consumption": 1080,
+    "carrying_capacity": 10800,
+    "revival_cost_gold": 864,
+    "revival_cost_silver": 8640,
+    "extraction_phases": {
+      "name": {
+        "name": "FIRE PHOENIX II",
+        "text": "        FIRE PHOENIX II",
+        "confidence": 94.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Flying", "Elemental"],
+        "text": "Elemental, Flying unit ",
+        "confidence": 93.5,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3570000,
+          "strength": 1190000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 1080,
+          "carrying_capacity": 10800,
+          "revival_cost_gold": 864,
+          "revival_cost_silver": 8640
+        },
+        "text": "  Strength: 1,190,000 @ Health: 3,570,000         Food consumption: 1,080 Carrying capacity: 10,800 Revival cost after an attack: 864 Gold Revival cost after defending: 8640 Silver",
+        "confidence": 90.76666666666667,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_93.png",
+    "extracted_text": "  DEVASTATOR II | Dragon, Mounted unit    | @& Strength: 1,170,000 @ Health: 3,510,000 Oominance: 53 Speed: 32 initiative: 30 Food consumption: 1,060 Carrying capacity: 10,600 Revival cost after an attack: 848 Gold Revival cost after defending: 8480 Silver",
+    "name": "DEVASTATOR II",
+    "unit_types": ["Dragon", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 3510000,
+    "strength": 1170000,
+    "leadership_cost": 0,
+    "dominance_cost": 53,
+    "authority_cost": 0,
+    "food_consumption": 1060,
+    "carrying_capacity": 10600,
+    "revival_cost_gold": 848,
+    "revival_cost_silver": 8480,
+    "extraction_phases": {
+      "name": {
+        "name": "DEVASTATOR II",
+        "text": "  DEVASTATOR II",
+        "confidence": 92.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Mounted"],
+        "text": "Dragon, Mounted unit   ",
+        "confidence": 93.2,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3510000,
+          "strength": 1170000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 1060,
+          "carrying_capacity": 10600,
+          "revival_cost_gold": 848,
+          "revival_cost_silver": 8480
+        },
+        "text": "@& Strength: 1,170,000 @ Health: 3,510,000 Oominance: 53 Speed: 32 initiative: 30 Food consumption: 1,060 Carrying capacity: 10,600 Revival cost after an attack: 848 Gold Revival cost after defending: 8480 Silver",
+        "confidence": 89.61290322580645,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_99.png",
+    "extracted_text": "       TRICKSTER | | Beast, Ranged unit @ Strength: 640,000 @ Health: 1,920,000 |   Strength: 640,000 @ Health: 1,920,000   Dominance: 52 Speed: 30 Initiative: 10 Food consumption: 1,040 Carrying capacity: 10,400 Revival cost after an attack: 832 Gold Revival cost after defending: 8320 Silver  ",
+    "name": "TRICKSTER I",
+    "unit_types": ["Beast", "Ranged"],
+    "cost_type": "Dominance",
+    "health": 1920000,
+    "strength": 640000,
+    "leadership_cost": 0,
+    "dominance_cost": 52,
+    "authority_cost": 0,
+    "food_consumption": 1040,
+    "carrying_capacity": 10400,
+    "revival_cost_gold": 832,
+    "revival_cost_silver": 8320,
+    "extraction_phases": {
+      "name": {
+        "name": "TRICKSTER",
+        "text": "       TRICKSTER |",
+        "confidence": 95.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Ranged"],
+        "text": "Beast, Ranged unit @ Strength: 640,000 @ Health: 1,920,000",
+        "confidence": 91.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 1920000,
+          "strength": 640000,
+          "leadership_cost": 0,
+          "dominance_cost": 52,
+          "authority_cost": 0,
+          "food_consumption": 1040,
+          "carrying_capacity": 10400,
+          "revival_cost_gold": 832,
+          "revival_cost_silver": 8320
+        },
+        "text": "  Strength: 640,000 @ Health: 1,920,000   Dominance: 52 Speed: 30 Initiative: 10 Food consumption: 1,040 Carrying capacity: 10,400 Revival cost after an attack: 832 Gold Revival cost after defending: 8320 Silver  ",
+        "confidence": 91.11764705882354,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_11.png",
+    "extracted_text": "  RIDERI | Guardsman, Human, Mounted unit | &@ Strength: 100 @ Health: 300 Leadership: 2 Speed: 73 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "RIDER I",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 300,
+    "strength": 100,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDERI",
+        "text": "  RIDERI",
+        "confidence": 90.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 93.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 300,
+          "strength": 100,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "&@ Strength: 100 @ Health: 300 Leadership: 2 Speed: 73 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 90.87096774193549,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_13.png",
+    "extracted_text": "RIDER IIL   Guardsman, Human, Mounted | Guardsman, Human, Mounted unit  | Strength: 320 @ Health: 960 Leadership: 2 Speed: 59 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "RIDER III",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 960,
+    "strength": 320,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDER IIL ",
+        "text": "RIDER IIL   Guardsman, Human, Mounted",
+        "confidence": 94.33333333333333,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit ",
+        "confidence": 95.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 960,
+          "strength": 320,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "Strength: 320 @ Health: 960 Leadership: 2 Speed: 59 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 92.86666666666666,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_15.png",
+    "extracted_text": "RIDERV  | Guardsman, Human, Mounted unit | @& Strength: 1,050 @ Health: 3,150 Leadership: 2 Speed: 48 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+    "name": "RIDER V",
+    "unit_types": ["Guardsman", "Human", "Mounted"],
+    "cost_type": "Leadership",
+    "health": 3150,
+    "strength": 1050,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDERV",
+        "text": "RIDERV ",
+        "confidence": 93.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Mounted"],
+        "text": "Guardsman, Human, Mounted unit",
+        "confidence": 93.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 3150,
+          "strength": 1050,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "@& Strength: 1,050 @ Health: 3,150 Leadership: 2 Speed: 48 Initiative: 10 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver",
+        "confidence": 89.87096774193549,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_18.png",
+    "extracted_text": "BATTLE GRIFFIN VIL  |     Strength: 34,000 @ Health: 102,000  | & Strength: 34,000 @ Health: 102,000 Leadership: 20 Speed: 49 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Sitver",
+    "name": "BATTLE GRIFFIN VII",
+    "unit_types": ["Beast", "Flying", "Guardsman"],
+    "cost_type": "Leadership",
+    "health": 102000,
+    "strength": 34000,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 0,
+    "extraction_phases": {
+      "name": {
+        "name": "BATTLE GRIFFIN ",
+        "text": "BATTLE GRIFFIN VIL ",
+        "confidence": 94.0,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Strength"],
+        "text": "    Strength: 34,000 @ Health: 102,000 ",
+        "confidence": 93.625,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 102000,
+          "strength": 34000,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 0
+        },
+        "text": "& Strength: 34,000 @ Health: 102,000 Leadership: 20 Speed: 49 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Sitver",
+        "confidence": 89.06451612903226,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_27.png",
+    "extracted_text": "      PUNISHER | | Guardsman, Human, Melee unit | @& Strength: 3,060 @ Health: 9,180 | Leadership: 1 Speed: 30 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "PUNISHER I",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 9180,
+    "strength": 3060,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "PUNISHER",
+        "text": "      PUNISHER |",
+        "confidence": 93.5,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit",
+        "confidence": 90.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 9180,
+          "strength": 3060,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "@& Strength: 3,060 @ Health: 9,180 | Leadership: 1 Speed: 30 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 88.16129032258064,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_31.png",
+    "extracted_text": "CORAX |  | Flying unit, Guardsman, Human |   oe && Strength: 62,200 @ Health: 183,600   Leadership: 20 Speed: 44 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver  ",
+    "name": "CORAX I",
+    "unit_types": ["Guardsman", "Human", "Flying"],
+    "cost_type": "Leadership",
+    "health": 183600,
+    "strength": 62200,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "CORAX",
+        "text": "CORAX | ",
+        "confidence": 93.33333333333333,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Flying"],
+        "text": "Flying unit, Guardsman, Human",
+        "confidence": 94.5,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 183600,
+          "strength": 62200,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "  oe && Strength: 62,200 @ Health: 183,600   Leadership: 20 Speed: 44 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver  ",
+        "confidence": 89.94285714285714,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_55.png",
+    "extracted_text": "  a LEGITIMIST IT | | Human, Ranged unit, Specialist |   & Strength: 5,510 @ Health: 16,530     Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "LEGITIMIST I",
+    "unit_types": ["Human", "Ranged", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 9180,
+    "strength": 3060,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "LEGITIMIST ",
+        "text": "  a LEGITIMIST IT",
+        "confidence": 82.5,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Ranged", "Specialist"],
+        "text": "| Human, Ranged unit, Specialist",
+        "confidence": 93.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 16530,
+          "strength": 5510,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  & Strength: 5,510 @ Health: 16,530     Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.47058823529412,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_55.png",
+    "extracted_text": "  a LEGITIMIST IT | | Human, Ranged unit, Specialist |   & Strength: 5,510 @ Health: 16,530     Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "LEGITIMIST II",
+    "unit_types": ["Human", "Ranged", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 16530,
+    "strength": 5510,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "LEGITIMIST ",
+        "text": "  a LEGITIMIST IT",
+        "confidence": 82.5,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Ranged", "Specialist"],
+        "text": "| Human, Ranged unit, Specialist",
+        "confidence": 93.8,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 16530,
+          "strength": 5510,
+          "leadership_cost": 1,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 100,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  & Strength: 5,510 @ Health: 16,530     Leadership: 1 Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 100 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 87.47058823529412,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_56.png",
+    "extracted_text": "DUELIST] | Human, Melee unit, Specialist  |   Gj Strength: 3,060 @ Health: 9,180   Speed: 30 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "DUELIST I",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 9180,
+    "strength": 3060,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "DUELIST",
+        "text": "DUELIST]",
+        "confidence": 87.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "Human, Melee unit, Specialist ",
+        "confidence": 91.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 9180,
+          "strength": 3060,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  Gj Strength: 3,060 @ Health: 9,180   Speed: 30 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 90.54838709677419,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_57.png",
+    "extracted_text": "    DUELIST I] | | Human, Melee unit, Specialist | | Strength: 5,510 @ Health: 16,530   Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "DUELIST II",
+    "unit_types": ["Human", "Melee", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 16530,
+    "strength": 5510,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "DUELIST I",
+        "text": "    DUELIST I]",
+        "confidence": 88.75,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Melee", "Specialist"],
+        "text": "| Human, Melee unit, Specialist |",
+        "confidence": 90.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 16530,
+          "strength": 5510,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "Strength: 5,510 @ Health: 16,530   Speed: 27 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 92.79310344827586,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_58.png",
+    "extracted_text": "  WHITEMANE | | Human, Mounted unit, Specialist |      Strength: 6,120 @ Health: 18,360   Leadership: 2   Initiative: t0 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver FEATIJRES ©",
+    "name": "WHITEMANE I",
+    "unit_types": ["Human", "Mounted", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 18360,
+    "strength": 6120,
+    "leadership_cost": 2,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 10,
+    "carrying_capacity": 200,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80,
+    "extraction_phases": {
+      "name": {
+        "name": "WHITEMANE",
+        "text": "  WHITEMANE |",
+        "confidence": 92.33333333333333,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Human", "Mounted", "Specialist"],
+        "text": "Human, Mounted unit, Specialist",
+        "confidence": 95.5,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 18360,
+          "strength": 6120,
+          "leadership_cost": 2,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 10,
+          "carrying_capacity": 200,
+          "revival_cost_gold": 8,
+          "revival_cost_silver": 80
+        },
+        "text": "     Strength: 6,120 @ Health: 18,360   Leadership: 2   Initiative: t0 Food consumption: 10 Carrying capacity: 200 Revival cost after an attack: 8 Gold Revival cost after defending: 80 Silver FEATIJRES ©",
+        "confidence": 90.76470588235294,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_61.png",
+    "extracted_text": "ROYAL LION IT  | Beast, Flying unit, Specialist | ONG SS     &@ Strength: 110,200 @ Health: 330,600   Leadership: 20 Speed: 40 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver ",
+    "name": "ROYAL LION II",
+    "unit_types": ["Beast", "Flying", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 330600,
+    "strength": 110200,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "ROYAL LION ",
+        "text": "ROYAL LION IT ",
+        "confidence": 93.5,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Flying", "Specialist"],
+        "text": "Beast, Flying unit, Specialist",
+        "confidence": 96.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 330600,
+          "strength": 110200,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "ONG SS     &@ Strength: 110,200 @ Health: 330,600   Leadership: 20 Speed: 40 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver ",
+        "confidence": 89.0,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_60.png",
+    "extracted_text": "      LION | | Beast, Flying unit, Specialist |   &@ Strength: 61,200 @ Health: 183,600   Leadership: 20 Speed: 44 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver   ee ",
+    "name": "ROYAL LION I",
+    "unit_types": ["Beast", "Flying", "Specialist"],
+    "cost_type": "Leadership",
+    "health": 183600,
+    "strength": 61200,
+    "leadership_cost": 20,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 100,
+    "carrying_capacity": 1000,
+    "revival_cost_gold": 80,
+    "revival_cost_silver": 800,
+    "extraction_phases": {
+      "name": {
+        "name": "LION",
+        "text": "      LION |",
+        "confidence": 93.8,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Flying", "Specialist"],
+        "text": "Beast, Flying unit, Specialist",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 183600,
+          "strength": 61200,
+          "leadership_cost": 20,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 100,
+          "carrying_capacity": 1000,
+          "revival_cost_gold": 80,
+          "revival_cost_silver": 800
+        },
+        "text": "  &@ Strength: 61,200 @ Health: 183,600   Leadership: 20 Speed: 44 Initiative: 10 Food consumption: 100 Carrying capacity: 1,000 Revival cost after an attack: 80 Gold Revival cost after defending: 800 Silver   ee ",
+        "confidence": 91.02777777777777,
+        "method": "phased_stats_extraction_clahe_enhancement_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_73.png",
+    "extracted_text": "   EMERALD DRAGON | Dragon, Flying unit      (& Strength: 4,500 @ Health: 13,500  | i ll (&& Strength: 4,500 @ Health: 13,500 Dominance: 7 Speed: 50 Initiative: 10 Food consumption: 140 Carrying capacity: 1,400 Revival cost after an attack: 112 Gold Revival cost after defending: 1120 Silver",
+    "name": "EMERALD DRAGON",
+    "unit_types": ["Dragon", "Flying"],
+    "cost_type": "Dominance",
+    "health": 13500,
+    "strength": 4500,
+    "leadership_cost": 0,
+    "dominance_cost": 7,
+    "authority_cost": 0,
+    "food_consumption": 140,
+    "carrying_capacity": 1400,
+    "revival_cost_gold": 112,
+    "revival_cost_silver": 1120,
+    "extraction_phases": {
+      "name": {
+        "name": "EMERALD ",
+        "text": "   EMERALD DRAGON",
+        "confidence": 95.66666666666667,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Flying"],
+        "text": "Dragon, Flying unit      (& Strength: 4,500 @ Health: 13,500 ",
+        "confidence": 90.41666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 13500,
+          "strength": 4500,
+          "leadership_cost": 0,
+          "dominance_cost": 7,
+          "authority_cost": 0,
+          "food_consumption": 140,
+          "carrying_capacity": 1400,
+          "revival_cost_gold": 112,
+          "revival_cost_silver": 1120
+        },
+        "text": "i ll (&& Strength: 4,500 @ Health: 13,500 Dominance: 7 Speed: 50 Initiative: 10 Food consumption: 140 Carrying capacity: 1,400 Revival cost after an attack: 112 Gold Revival cost after defending: 1120 Silver",
+        "confidence": 86.93939393939394,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_76.png",
+    "extracted_text": "  Ppveral Poacnn | Dragon, Melee unit | @& Strength: 120,000 @ Health: 360,000   ominance: 33 Speed: 36 initiative: 10 Food consumption: 660 Carrying capacity: 6,600 Revival cost after an attack: 528 Gold Revival cost after defending: 5280 Silver",
+    "name": "CRYSTAL DRAGON",
+    "unit_types": ["Dragon", "Melee"],
+    "cost_type": "Dominance",
+    "health": 360000,
+    "strength": 120000,
+    "leadership_cost": 0,
+    "dominance_cost": 33,
+    "authority_cost": 0,
+    "food_consumption": 660,
+    "carrying_capacity": 6600,
+    "revival_cost_gold": 528,
+    "revival_cost_silver": 5280,
+    "extraction_phases": {
+      "name": {
+        "name": "PPVERAL ",
+        "text": "  Ppveral Poacnn",
+        "confidence": 73.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Melee"],
+        "text": "Dragon, Melee unit",
+        "confidence": 94.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 360000,
+          "strength": 120000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 660,
+          "carrying_capacity": 6600,
+          "revival_cost_gold": 528,
+          "revival_cost_silver": 5280
+        },
+        "text": "@& Strength: 120,000 @ Health: 360,000   ominance: 33 Speed: 36 initiative: 10 Food consumption: 660 Carrying capacity: 6,600 Revival cost after an attack: 528 Gold Revival cost after defending: 5280 Silver",
+        "confidence": 89.375,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_75.png",
+    "extracted_text": "  DESERT VANQUISHER | Dragon, Mounted unit |   f&& Strength: 42,000 @ Health: 126,000   Dominance: 20 Speed: 49 Initiative: 10 Food consumption: 400 Carrying capacity: 4,000 Revival cost after an attack: 320 Gold Revival cost after defending: 3200 Silver eg   ",
+    "name": "DESERT VANQUISHER",
+    "unit_types": ["Dragon", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 126000,
+    "strength": 42000,
+    "leadership_cost": 0,
+    "dominance_cost": 20,
+    "authority_cost": 0,
+    "food_consumption": 400,
+    "carrying_capacity": 4000,
+    "revival_cost_gold": 320,
+    "revival_cost_silver": 3200,
+    "extraction_phases": {
+      "name": {
+        "name": "DESERT ",
+        "text": "  DESERT VANQUISHER",
+        "confidence": 92.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Mounted"],
+        "text": "Dragon, Mounted unit",
+        "confidence": 93.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 126000,
+          "strength": 42000,
+          "leadership_cost": 0,
+          "dominance_cost": 20,
+          "authority_cost": 0,
+          "food_consumption": 400,
+          "carrying_capacity": 4000,
+          "revival_cost_gold": 320,
+          "revival_cost_silver": 3200
+        },
+        "text": "  f&& Strength: 42,000 @ Health: 126,000   Dominance: 20 Speed: 49 Initiative: 10 Food consumption: 400 Carrying capacity: 4,000 Revival cost after an attack: 320 Gold Revival cost after defending: 3200 Silver eg   ",
+        "confidence": 91.72222222222223,
+        "method": "phased_stats_extraction_clahe_enhancement_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_77.png",
+    "extracted_text": "BLACK DRAGON  | Dragon, Flying unit |   &@ Strength: 300,000 @ Health: 900,000     Dominance: 44   Initiative: 10 Food consumption: 880 Carrying capacity: 8,800 Revival cost after an attack: 704 Gold Revival cost after defending: 7040 Silver",
+    "name": "BLACK DRAGON",
+    "unit_types": ["Dragon", "Flying"],
+    "cost_type": "Dominance",
+    "health": 900000,
+    "strength": 300000,
+    "leadership_cost": 0,
+    "dominance_cost": 44,
+    "authority_cost": 0,
+    "food_consumption": 880,
+    "carrying_capacity": 8800,
+    "revival_cost_gold": 704,
+    "revival_cost_silver": 7040,
+    "extraction_phases": {
+      "name": {
+        "name": "BLACK ",
+        "text": "BLACK DRAGON ",
+        "confidence": 95.66666666666667,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Flying"],
+        "text": "Dragon, Flying unit",
+        "confidence": 96.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 900000,
+          "strength": 300000,
+          "leadership_cost": 0,
+          "dominance_cost": 44,
+          "authority_cost": 0,
+          "food_consumption": 880,
+          "carrying_capacity": 8800,
+          "revival_cost_gold": 704,
+          "revival_cost_silver": 7040
+        },
+        "text": "  &@ Strength: 300,000 @ Health: 900,000     Dominance: 44   Initiative: 10 Food consumption: 880 Carrying capacity: 8,800 Revival cost after an attack: 704 Gold Revival cost after defending: 7040 Silver",
+        "confidence": 89.41176470588235,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_78.png",
+    "extracted_text": "      DEVASTATOR | | Dragon, Mounted unit | @& Strength: 650,000 @ Health: 1,950,000 | Dominance: 53 Speed: 35 initiative: 10 Food consumption: 1,060 Carrying capacity: 10,600 Revival cost after an attack: 848 Gold Revival cost after defending: 8480 Silver",
+    "name": "DEVASTATOR I",
+    "unit_types": ["Dragon", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 1950000,
+    "strength": 650000,
+    "leadership_cost": 0,
+    "dominance_cost": 53,
+    "authority_cost": 0,
+    "food_consumption": 1060,
+    "carrying_capacity": 10600,
+    "revival_cost_gold": 848,
+    "revival_cost_silver": 8480,
+    "extraction_phases": {
+      "name": {
+        "name": "DEVASTATOR",
+        "text": "      DEVASTATOR |",
+        "confidence": 94.2,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Dragon", "Mounted"],
+        "text": "Dragon, Mounted unit",
+        "confidence": 89.0,
+        "method": "phased_types_extraction"
+      },
+      "stats": {
+        "stats": {
+          "health": 1950000,
+          "strength": 650000,
+          "leadership_cost": 0,
+          "dominance_cost": 53,
+          "authority_cost": 0,
+          "food_consumption": 1060,
+          "carrying_capacity": 10600,
+          "revival_cost_gold": 848,
+          "revival_cost_silver": 8480
+        },
+        "text": "@& Strength: 650,000 @ Health: 1,950,000 | Dominance: 53 Speed: 35 initiative: 10 Food consumption: 1,060 Carrying capacity: 10,600 Revival cost after an attack: 848 Gold Revival cost after defending: 8480 Silver",
+        "confidence": 89.5625,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_79.png",
+    "extracted_text": "WATER ELEMENTAL  | Elemental, Ranged unit     | Strength: 1,500 @ Health: 5,700 ee Dominance: 3 Speed: 50 Initiative: 10 Food consumption: 60 Carrying capacity: 600 Revival cost after an attack: 48 Gold Revival cost after defending: 480 Silver",
+    "name": "WATER ELEMENTAL",
+    "unit_types": ["Ranged", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 5700,
+    "strength": 1500,
+    "leadership_cost": 0,
+    "dominance_cost": 3,
+    "authority_cost": 0,
+    "food_consumption": 60,
+    "carrying_capacity": 600,
+    "revival_cost_gold": 48,
+    "revival_cost_silver": 480,
+    "extraction_phases": {
+      "name": {
+        "name": "WATER ",
+        "text": "WATER ELEMENTAL ",
+        "confidence": 95.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Ranged", "Elemental"],
+        "text": "Elemental, Ranged unit    ",
+        "confidence": 92.4,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 5700,
+          "strength": 1500,
+          "leadership_cost": 0,
+          "dominance_cost": 3,
+          "authority_cost": 0,
+          "food_consumption": 60,
+          "carrying_capacity": 600,
+          "revival_cost_gold": 48,
+          "revival_cost_silver": 480
+        },
+        "text": "Strength: 1,500 @ Health: 5,700 ee Dominance: 3 Speed: 50 Initiative: 10 Food consumption: 60 Carrying capacity: 600 Revival cost after an attack: 48 Gold Revival cost after defending: 480 Silver",
+        "confidence": 90.2258064516129,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_8.png",
+    "extracted_text": "      SPEARMAN II | Guardsman, Human, Melee unit     (& Strength: 160 @ Health: 480  |   ne ind &@ Strength: 160 @ Health: 430   Speed: 50 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+    "name": "SPEARMAN III",
+    "unit_types": ["Guardsman", "Human", "Melee"],
+    "cost_type": "Leadership",
+    "health": 430,
+    "strength": 160,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 250,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "extraction_phases": {
+      "name": {
+        "name": "SPEARMAN II",
+        "text": "      SPEARMAN II",
+        "confidence": 88.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Guardsman", "Human", "Melee"],
+        "text": "Guardsman, Human, Melee unit     (& Strength: 160 @ Health: 480 ",
+        "confidence": 90.07692307692308,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 430,
+          "strength": 160,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 5,
+          "carrying_capacity": 250,
+          "revival_cost_gold": 4,
+          "revival_cost_silver": 40
+        },
+        "text": "  ne ind &@ Strength: 160 @ Health: 430   Speed: 50 Initiative: 10 Food consumption: 5 Carrying capacity: 250 Revival cost after an attack: 4 Gold Revival cost after defending: 40 Silver",
+        "confidence": 86.42424242424242,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_81.png",
+    "extracted_text": "     FLAMING CENTAUR  | Elemental, Mounted unit    |   Strength: 44,000 @ Health: 132,000   Dominance; 21   Initiative: t0 Food consumption: 420 Carrying capacity: 4,200 Revival cost after an attack: 336 Gold Revival cost after defending: 3360 Silver  ",
+    "name": "FLAMING CENTAUR",
+    "unit_types": ["Mounted", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 132000,
+    "strength": 44000,
+    "leadership_cost": 0,
+    "dominance_cost": 21,
+    "authority_cost": 0,
+    "food_consumption": 420,
+    "carrying_capacity": 4200,
+    "revival_cost_gold": 336,
+    "revival_cost_silver": 3360,
+    "extraction_phases": {
+      "name": {
+        "name": "FLAMING ",
+        "text": "     FLAMING CENTAUR ",
+        "confidence": 93.5,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Mounted", "Elemental"],
+        "text": "Elemental, Mounted unit   ",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 132000,
+          "strength": 44000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 420,
+          "carrying_capacity": 4200,
+          "revival_cost_gold": 336,
+          "revival_cost_silver": 3360
+        },
+        "text": "  Strength: 44,000 @ Health: 132,000   Dominance; 21   Initiative: t0 Food consumption: 420 Carrying capacity: 4,200 Revival cost after an attack: 336 Gold Revival cost after defending: 3360 Silver  ",
+        "confidence": 88.93939393939394,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_83.png",
+    "extracted_text": "       WIND LorD | Elemental, Melee unit @& Strength: 310,000 @ Health: 930,000 | f&& Strength: 310,000 @ Health: 930,000 Dominance: 45 Speed: 33 Initiative: 10 Food consumption: 990 Carrying capacity: 9,000 Revival cost after an attack: 720 Gold Revival cost after defending: 7200 Silver",
+    "name": "WIND LORD",
+    "unit_types": ["Melee", "Elemental"],
+    "cost_type": "Dominance",
+    "health": 930000,
+    "strength": 310000,
+    "leadership_cost": 0,
+    "dominance_cost": 45,
+    "authority_cost": 0,
+    "food_consumption": 990,
+    "carrying_capacity": 9000,
+    "revival_cost_gold": 720,
+    "revival_cost_silver": 7200,
+    "extraction_phases": {
+      "name": {
+        "name": "WIND ",
+        "text": "       WIND LorD",
+        "confidence": 90.8,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Melee", "Elemental"],
+        "text": "Elemental, Melee unit @& Strength: 310,000 @ Health: 930,000",
+        "confidence": 92.22222222222223,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 930000,
+          "strength": 310000,
+          "leadership_cost": 0,
+          "dominance_cost": 45,
+          "authority_cost": 0,
+          "food_consumption": 990,
+          "carrying_capacity": 9000,
+          "revival_cost_gold": 720,
+          "revival_cost_silver": 7200
+        },
+        "text": "f&& Strength: 310,000 @ Health: 930,000 Dominance: 45 Speed: 33 Initiative: 10 Food consumption: 990 Carrying capacity: 9,000 Revival cost after an attack: 720 Gold Revival cost after defending: 7200 Silver",
+        "confidence": 91.35483870967742,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_82.png",
+    "extracted_text": "       GOLEM | Elemental. Melee unit & strength: 130,000 @ Health: 390,000 | (& Strength: 130,000 @ Health: 390,000   Dominance: 35 Speed: 36 Initiative: 10 Food consumption: 700 Carrying capacity: 7,000 Revival cost after an attack: 560 Gold Revival cost after defending: 5600 Silver ",
+    "name": "RUBY GOLEM",
+    "unit_types": ["ELEMENTAL", "MELEE"],
+    "cost_type": "Dominance",
+    "health": 390000,
+    "strength": 130000,
+    "leadership_cost": 0,
+    "dominance_cost": 35,
+    "authority_cost": 0,
+    "food_consumption": 700,
+    "carrying_capacity": 7000,
+    "revival_cost_gold": 560,
+    "revival_cost_silver": 5600,
+    "extraction_phases": {
+      "name": {
+        "name": "GOLEM",
+        "text": "       GOLEM",
+        "confidence": 95.25,
+        "method": "Top 25% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Melee"],
+        "text": "Elemental. Melee unit & strength: 130,000 @ Health: 390,000",
+        "confidence": 89.44444444444444,
+        "method": "phased_types_extraction"
+      },
+      "stats": {
+        "stats": {
+          "health": 390000,
+          "strength": 130000,
+          "leadership_cost": 0,
+          "dominance_cost": 35,
+          "authority_cost": 0,
+          "food_consumption": 700,
+          "carrying_capacity": 7000,
+          "revival_cost_gold": 560,
+          "revival_cost_silver": 5600
+        },
+        "text": "(& Strength: 130,000 @ Health: 390,000   Dominance: 35 Speed: 36 Initiative: 10 Food consumption: 700 Carrying capacity: 7,000 Revival cost after an attack: 560 Gold Revival cost after defending: 5600 Silver ",
+        "confidence": 91.96969696969697,
+        "method": "phased_stats_extraction_clahe_enhancement_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_85.png",
+    "extracted_text": "  STONE GARGOYLE |     @ Health: 15, 600 | Strength: 5,200 @ Health: 15,600 i Dominance: 8 Speed: 50 Initiative: 10 Food consumption: 160 Carrying capacity: 1,600 Revival cost after an attack: 128 Gold Revival cost after defending: 1280 Silver",
+    "name": "STONE GARGOYLE",
+    "unit_types": ["Flying", "Giant"],
+    "cost_type": "Dominance",
+    "health": 15600,
+    "strength": 5200,
+    "leadership_cost": 0,
+    "dominance_cost": 8,
+    "authority_cost": 0,
+    "food_consumption": 160,
+    "carrying_capacity": 1600,
+    "revival_cost_gold": 128,
+    "revival_cost_silver": 1280,
+    "extraction_phases": {
+      "name": {
+        "name": "STONE ",
+        "text": "  STONE GARGOYLE",
+        "confidence": 95.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Health"],
+        "text": "    @ Health: 15, 600",
+        "confidence": 92.66666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 15600,
+          "strength": 5200,
+          "leadership_cost": 0,
+          "dominance_cost": 8,
+          "authority_cost": 0,
+          "food_consumption": 160,
+          "carrying_capacity": 1600,
+          "revival_cost_gold": 128,
+          "revival_cost_silver": 1280
+        },
+        "text": "Strength: 5,200 @ Health: 15,600 i Dominance: 8 Speed: 50 Initiative: 10 Food consumption: 160 Carrying capacity: 1,600 Revival cost after an attack: 128 Gold Revival cost after defending: 1280 Silver",
+        "confidence": 92.96774193548387,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_86.png",
+    "extracted_text": "    MANY-ARMED GUARDIAN | Giant, Melee unit     | &&@ Strength: 13,000 @ Health: 39,000 Dominance: 11 Speed: 45 Initiative: 10 Food consumption: 220 Carrying capacity: 2,200 Revival cost after an attack: 176 Gold Revival cost after defending: 1760 Silver FEATURES «",
+    "name": "MANY-ARMED GUARDIAN",
+    "unit_types": ["Giant", "Melee"],
+    "cost_type": "Dominance",
+    "health": 39000,
+    "strength": 13000,
+    "leadership_cost": 0,
+    "dominance_cost": 11,
+    "authority_cost": 0,
+    "food_consumption": 220,
+    "carrying_capacity": 2200,
+    "revival_cost_gold": 176,
+    "revival_cost_silver": 1760,
+    "extraction_phases": {
+      "name": {
+        "name": "ARMED ",
+        "text": "    MANY-ARMED GUARDIAN",
+        "confidence": 93.75,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Melee"],
+        "text": "Giant, Melee unit    ",
+        "confidence": 95.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 39000,
+          "strength": 13000,
+          "leadership_cost": 0,
+          "dominance_cost": 11,
+          "authority_cost": 0,
+          "food_consumption": 220,
+          "carrying_capacity": 2200,
+          "revival_cost_gold": 176,
+          "revival_cost_silver": 1760
+        },
+        "text": "&&@ Strength: 13,000 @ Health: 39,000 Dominance: 11 Speed: 45 Initiative: 10 Food consumption: 220 Carrying capacity: 2,200 Revival cost after an attack: 176 Gold Revival cost after defending: 1760 Silver FEATURES «",
+        "confidence": 90.06060606060606,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_87.png",
+    "extracted_text": "ETTIN  | Giant, Melee unit |     &&@ Strength: 48,000 @ Health: 144,000   Dominance: 23 Speed: 40 Initiative: 10 Food consumption; 460 Carrying capacity: 4,600 Revival cost after an attack: 368 Gold Revival cost after defending: 3680 Silver",
+    "name": "ETTIN",
+    "unit_types": ["Giant", "Melee"],
+    "cost_type": "Dominance",
+    "health": 144000,
+    "strength": 48000,
+    "leadership_cost": 0,
+    "dominance_cost": 23,
+    "authority_cost": 0,
+    "food_consumption": 0,
+    "carrying_capacity": 4600,
+    "revival_cost_gold": 368,
+    "revival_cost_silver": 3680,
+    "extraction_phases": {
+      "name": {
+        "name": "ETTIN",
+        "text": "ETTIN ",
+        "confidence": 92.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Melee"],
+        "text": "Giant, Melee unit",
+        "confidence": 95.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 144000,
+          "strength": 48000,
+          "leadership_cost": 0,
+          "dominance_cost": 23,
+          "authority_cost": 0,
+          "food_consumption": 0,
+          "carrying_capacity": 4600,
+          "revival_cost_gold": 368,
+          "revival_cost_silver": 3680
+        },
+        "text": "    &&@ Strength: 48,000 @ Health: 144,000   Dominance: 23 Speed: 40 Initiative: 10 Food consumption; 460 Carrying capacity: 4,600 Revival cost after an attack: 368 Gold Revival cost after defending: 3680 Silver",
+        "confidence": 92.5,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_88.png",
+    "extracted_text": "    RIDER    | | Giant, Mounted unit | | & Strength: 110,000 @ Health: 330,000 30 Speed: 36 initiative: 30 Food consumption: 600 Carrying capacity: 6,000 Revival cost after an attack: 480 Gold Revival cost after defending: 4800 Silver",
+    "name": "TROLL RIDER",
+    "unit_types": ["Giant", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 330000,
+    "strength": 110000,
+    "leadership_cost": 0,
+    "dominance_cost": 30,
+    "authority_cost": 0,
+    "food_consumption": 600,
+    "carrying_capacity": 6000,
+    "revival_cost_gold": 480,
+    "revival_cost_silver": 4800,
+    "extraction_phases": {
+      "name": {
+        "name": "RIDER",
+        "text": "    RIDER   ",
+        "confidence": 94.0,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Mounted"],
+        "text": "| Giant, Mounted unit |",
+        "confidence": 90.6,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 330000,
+          "strength": 110000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 600,
+          "carrying_capacity": 6000,
+          "revival_cost_gold": 480,
+          "revival_cost_silver": 4800
+        },
+        "text": "& Strength: 110,000 @ Health: 330,000 30 Speed: 36 initiative: 30 Food consumption: 600 Carrying capacity: 6,000 Revival cost after an attack: 480 Gold Revival cost after defending: 4800 Silver",
+        "confidence": 91.0,
+        "method": "phased_stats_extraction_bilateral_filter_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_89.png",
+    "extracted_text": "    ESTRUCTIVE COLOSS! | Giant, Ranged unit |   {&&@ Strength: 290,000 @ Health: 870,000   Dominance: 43 Speed: 33 Initiative: 10 Food consumption: 860 Carrying capacity: 8,600 Revival cost after an attack: 688 Gold Revival cost after defending: 6880 Silver",
+    "name": "DESTRUCTIVE COLOSSUS",
+    "unit_types": ["Giant", "Ranged"],
+    "cost_type": "Dominance",
+    "health": 870000,
+    "strength": 290000,
+    "leadership_cost": 0,
+    "dominance_cost": 43,
+    "authority_cost": 0,
+    "food_consumption": 860,
+    "carrying_capacity": 8600,
+    "revival_cost_gold": 688,
+    "revival_cost_silver": 6880,
+    "extraction_phases": {
+      "name": {
+        "name": "ESTRUCTIVE ",
+        "text": "    ESTRUCTIVE COLOSS!",
+        "confidence": 76.66666666666667,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Ranged"],
+        "text": "Giant, Ranged unit",
+        "confidence": 95.66666666666667,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 870000,
+          "strength": 290000,
+          "leadership_cost": 0,
+          "dominance_cost": 43,
+          "authority_cost": 0,
+          "food_consumption": 860,
+          "carrying_capacity": 8600,
+          "revival_cost_gold": 688,
+          "revival_cost_silver": 6880
+        },
+        "text": "  {&&@ Strength: 290,000 @ Health: 870,000   Dominance: 43 Speed: 33 Initiative: 10 Food consumption: 860 Carrying capacity: 8,600 Revival cost after an attack: 688 Gold Revival cost after defending: 6880 Silver",
+        "confidence": 90.93939393939394,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_90.png",
+    "extracted_text": "  KRAKEN | | Giant, Melee unit |   &@ Strength: 670,000 @ Health: 2,010,000     Dominance: 55 Speed: 30 Initiative: 10 Food consumption: 1,100 Carrying capacity: 11,000 Revival cost after an attack: 880 Geld Revival cost after defending: 8800 Silver FEATURES",
+    "name": "KRAKEN I",
+    "unit_types": ["Giant", "Melee"],
+    "cost_type": "Dominance",
+    "health": 2010000,
+    "strength": 670000,
+    "leadership_cost": 0,
+    "dominance_cost": 55,
+    "authority_cost": 0,
+    "food_consumption": 1100,
+    "carrying_capacity": 11000,
+    "revival_cost_gold": 0,
+    "revival_cost_silver": 8800,
+    "extraction_phases": {
+      "name": {
+        "name": "KRAKEN",
+        "text": "  KRAKEN |",
+        "confidence": 94.0,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Giant", "Melee"],
+        "text": "Giant, Melee unit",
+        "confidence": 94.33333333333333,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 2010000,
+          "strength": 670000,
+          "leadership_cost": 0,
+          "dominance_cost": 55,
+          "authority_cost": 0,
+          "food_consumption": 1100,
+          "carrying_capacity": 11000,
+          "revival_cost_gold": 0,
+          "revival_cost_silver": 8800
+        },
+        "text": "  &@ Strength: 670,000 @ Health: 2,010,000     Dominance: 55 Speed: 30 Initiative: 10 Food consumption: 1,100 Carrying capacity: 11,000 Revival cost after an attack: 880 Geld Revival cost after defending: 8800 Silver FEATURES",
+        "confidence": 88.68571428571428,
+        "method": "phased_stats_extraction"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_94.png",
+    "extracted_text": "      BATTLE BOAR | Beast, Mounted unit |     &&@ Strength: 3,900 @ Health: 11,700   Dominance: 6   Food consumption: 120 Carrying capacity: 1,200 Revival cost after an attack: 96 Gold Revival cost after defending: 960 Silver ",
+    "name": "BATTLE BOAR",
+    "unit_types": ["Beast", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 11700,
+    "strength": 3900,
+    "leadership_cost": 0,
+    "dominance_cost": 6,
+    "authority_cost": 0,
+    "food_consumption": 120,
+    "carrying_capacity": 1200,
+    "revival_cost_gold": 96,
+    "revival_cost_silver": 960,
+    "extraction_phases": {
+      "name": {
+        "name": "BATTLE ",
+        "text": "      BATTLE BOAR",
+        "confidence": 95.4,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Mounted"],
+        "text": "Beast, Mounted unit",
+        "confidence": 96.0,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 11700,
+          "strength": 3900,
+          "leadership_cost": 0,
+          "dominance_cost": 6,
+          "authority_cost": 0,
+          "food_consumption": 120,
+          "carrying_capacity": 1200,
+          "revival_cost_gold": 96,
+          "revival_cost_silver": 960
+        },
+        "text": "    &&@ Strength: 3,900 @ Health: 11,700   Dominance: 6   Food consumption: 120 Carrying capacity: 1,200 Revival cost after an attack: 96 Gold Revival cost after defending: 960 Silver ",
+        "confidence": 91.53125,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_95.png",
+    "extracted_text": "   GORGON MEDUSA | Beast, Ranged unit     (G& Strength: 12,000 @ Health: 36,000  | Strength: 12,000 @ Health: 36,000 Dominance: 10 Speed: 45 Initiative: 10 Food consumption: 200 Carrying capacity: 2,000 Revival cost after an attack: 160 Gold Revival cost after defending: 1600 Silver",
+    "name": "GORGON MEDUSA",
+    "unit_types": ["Beast", "Ranged"],
+    "cost_type": "Dominance",
+    "health": 36000,
+    "strength": 12000,
+    "leadership_cost": 0,
+    "dominance_cost": 10,
+    "authority_cost": 0,
+    "food_consumption": 200,
+    "carrying_capacity": 2000,
+    "revival_cost_gold": 160,
+    "revival_cost_silver": 1600,
+    "extraction_phases": {
+      "name": {
+        "name": "GORGON ",
+        "text": "   GORGON MEDUSA",
+        "confidence": 93.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Ranged"],
+        "text": "Beast, Ranged unit     (G& Strength: 12,000 @ Health: 36,000 ",
+        "confidence": 90.25,
+        "method": "phased_types_extraction_basic_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 36000,
+          "strength": 12000,
+          "leadership_cost": 0,
+          "dominance_cost": 10,
+          "authority_cost": 0,
+          "food_consumption": 200,
+          "carrying_capacity": 2000,
+          "revival_cost_gold": 160,
+          "revival_cost_silver": 1600
+        },
+        "text": "Strength: 12,000 @ Health: 36,000 Dominance: 10 Speed: 45 Initiative: 10 Food consumption: 200 Carrying capacity: 2,000 Revival cost after an attack: 160 Gold Revival cost after defending: 1600 Silver",
+        "confidence": 93.0,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_96.png",
+    "extracted_text": "| FEARSOME MANTICORE | Beast, Flying unit    | Strength: 46,000 @ Health: 138,000     Food consumption: 440 Carrying capacity: 4,400 Revival cost after an attack: 352 Gold Revival cost after defending: 3520 Silver   ee",
+    "name": "FEARSOME MANTICORE",
+    "unit_types": ["Beast", "Flying"],
+    "cost_type": "Dominance",
+    "health": 138000,
+    "strength": 46000,
+    "leadership_cost": 0,
+    "dominance_cost": 22,
+    "authority_cost": 0,
+    "food_consumption": 440,
+    "carrying_capacity": 4400,
+    "revival_cost_gold": 352,
+    "revival_cost_silver": 3520,
+    "extraction_phases": {
+      "name": {
+        "name": "FEARSOME ",
+        "text": "| FEARSOME MANTICORE",
+        "confidence": 92.66666666666667,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Flying"],
+        "text": "Beast, Flying unit   ",
+        "confidence": 91.4,
+        "method": "phased_types_extraction_high_contrast_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 138000,
+          "strength": 46000,
+          "leadership_cost": 0,
+          "dominance_cost": 0,
+          "authority_cost": 0,
+          "food_consumption": 440,
+          "carrying_capacity": 4400,
+          "revival_cost_gold": 352,
+          "revival_cost_silver": 3520
+        },
+        "text": "Strength: 46,000 @ Health: 138,000     Food consumption: 440 Carrying capacity: 4,400 Revival cost after an attack: 352 Gold Revival cost after defending: 3520 Silver   ee",
+        "confidence": 91.57142857142857,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_97.png",
+    "extracted_text": "    JUNGLE DESTROYER  | Beast, Melee unit & Strength: 130,000 @ Health: 390,000 | &@ Strength: 130,000 @ Health: 390,000   Dominance: 34 Speed: 36 Initiative: 10 Food consumption: 680 Carrying capacity: 6,800 Revival cost after an attack: $44 Gold Revival cost after defending: 5440 Silver      ",
+    "name": "JUNGLE DESTORYER",
+    "unit_types": ["Beast", "Melee"],
+    "cost_type": "Dominance",
+    "health": 390000,
+    "strength": 130000,
+    "leadership_cost": 0,
+    "dominance_cost": 34,
+    "authority_cost": 0,
+    "food_consumption": 680,
+    "carrying_capacity": 6800,
+    "revival_cost_gold": 44,
+    "revival_cost_silver": 5440,
+    "extraction_phases": {
+      "name": {
+        "name": "JUNGLE ",
+        "text": "    JUNGLE DESTROYER ",
+        "confidence": 95.4,
+        "method": "Top 12.5% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Beast", "Melee"],
+        "text": "Beast, Melee unit & Strength: 130,000 @ Health: 390,000",
+        "confidence": 92.0,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 390000,
+          "strength": 130000,
+          "leadership_cost": 0,
+          "dominance_cost": 34,
+          "authority_cost": 0,
+          "food_consumption": 680,
+          "carrying_capacity": 6800,
+          "revival_cost_gold": 44,
+          "revival_cost_silver": 5440
+        },
+        "text": "&@ Strength: 130,000 @ Health: 390,000   Dominance: 34 Speed: 36 Initiative: 10 Food consumption: 680 Carrying capacity: 6,800 Revival cost after an attack: $44 Gold Revival cost after defending: 5440 Silver      ",
+        "confidence": 90.25714285714285,
+        "method": "phased_stats_extraction_high_contrast_early_stop"
+      }
+    }
+  },
+  {
+    "source_file": "Screenshot_98.png",
+    "extracted_text": "ANCIENT TERROR  | @& Strength: 280,000 @ Health: 840,000 | &@ Strength: 280,000 @ Health: 840,000   Dominance: 41   Food consumption: 820 Carrying capacity: 8,200 Revival cost after an attack: 656 Gold Revival cost after defending: 6560 Silver ",
+    "name": "ANCIENT TERROR",
+    "unit_types": ["Beast", "Mounted"],
+    "cost_type": "Dominance",
+    "health": 840000,
+    "strength": 280000,
+    "leadership_cost": 0,
+    "dominance_cost": 41,
+    "authority_cost": 0,
+    "food_consumption": 820,
+    "carrying_capacity": 8200,
+    "revival_cost_gold": 656,
+    "revival_cost_silver": 6560,
+    "extraction_phases": {
+      "name": {
+        "name": "ANCIENT ",
+        "text": "ANCIENT TERROR ",
+        "confidence": 95.66666666666667,
+        "method": "Top 16.7% - simple_extraction"
+      },
+      "types": {
+        "unit_types": ["Strength"],
+        "text": "@& Strength: 280,000 @ Health: 840,000",
+        "confidence": 90.66666666666667,
+        "method": "phased_types_extraction_bilateral_filter_early_stop"
+      },
+      "stats": {
+        "stats": {
+          "health": 840000,
+          "strength": 280000,
+          "leadership_cost": 0,
+          "dominance_cost": 41,
+          "authority_cost": 0,
+          "food_consumption": 820,
+          "carrying_capacity": 8200,
+          "revival_cost_gold": 656,
+          "revival_cost_silver": 6560
+        },
+        "text": "&@ Strength: 280,000 @ Health: 840,000   Dominance: 41   Food consumption: 820 Carrying capacity: 8,200 Revival cost after an attack: 656 Gold Revival cost after defending: 6560 Silver ",
+        "confidence": 90.13333333333334,
+        "method": "phased_stats_extraction_basic_early_stop"
+      }
+    }
+  }
+]
