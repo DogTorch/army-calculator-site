@@ -5538,5 +5538,24 @@
     "carrying_capacity": 2000,
     "revival_cost_gold": 320,
     "revival_cost_silver": 3200
+  },
+  {
+    "name": "ARBALESTER",
+    "unit_types": [
+      "Human",
+      "Ranged",
+      "Guardsman",
+      "Mercenary"
+    ],
+    "cost_type": "Authority",
+    "health": 5700,
+    "strength": 1900,
+    "leadership_cost": 0,
+    "dominance_cost": 0,
+    "authority_cost": 1,
+    "food_consumption": 0,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 8,
+    "revival_cost_silver": 80
   }
 ]
