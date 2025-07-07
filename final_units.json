@@ -5519,5 +5519,24 @@
     "carrying_capacity": 500,
     "revival_cost_gold": 80,
     "revival_cost_silver": 800
+  },
+  {
+    "name": "SHEDU",
+    "unit_types": [
+      "Beast",
+      "Flying",
+      "Mercenary",
+      "Specialist"
+    ],
+    "cost_type": "Authority",
+    "health": 226800,
+    "strength": 75600,
+    "leadership_cost": 0,
+    "dominance_cost": 0,
+    "authority_cost": 40,
+    "food_consumption": 0,
+    "carrying_capacity": 2000,
+    "revival_cost_gold": 320,
+    "revival_cost_silver": 3200
   }
 ]
