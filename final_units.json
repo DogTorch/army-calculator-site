@@ -49,7 +49,19 @@
         "confidence": 92.96774193548387,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Elemental",
+        "modifier_type": "Strength",
+        "value": 1512
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 1410
+      }
+    ]
   },
   {
     "source_file": "Screenshot_10.png",
@@ -103,7 +115,19 @@
         "confidence": 89.73333333333333,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 405
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 197
+      }
+    ]
   },
   {
     "source_file": "Screenshot_101.png",
@@ -210,7 +234,19 @@
         "confidence": 88.58064516129032,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 52
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 67
+      }
+    ]
   },
   {
     "source_file": "Screenshot_12.png",
@@ -264,7 +300,19 @@
         "confidence": 90.02941176470588,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 98
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 81
+      }
+    ]
   },
   {
     "source_file": "Screenshot_14.png",
@@ -318,7 +366,19 @@
         "confidence": 90.33333333333333,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 219
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 182
+      }
+    ]
   },
   {
     "source_file": "Screenshot_17.png",
@@ -372,7 +432,14 @@
         "confidence": 88.77142857142857,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 592
+      }
+    ]
   },
   {
     "source_file": "Screenshot_16.png",
@@ -426,7 +493,14 @@
         "confidence": 90.11428571428571,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 395
+      }
+    ]
   },
   {
     "source_file": "Screenshot_19.png",
@@ -480,7 +554,19 @@
         "confidence": 88.71875,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 509
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 395
+      }
+    ]
   },
   {
     "source_file": "Screenshot_2.png",
@@ -534,7 +620,19 @@
         "confidence": 90.63333333333334,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 78
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 101
+      }
+    ]
   },
   {
     "source_file": "Screenshot_20.png",
@@ -643,7 +741,19 @@
         "confidence": 87.9375,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 608
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 296
+      }
+    ]
   },
   {
     "source_file": "Screenshot_22.png",
@@ -698,7 +808,19 @@
         "confidence": 88.8,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 911
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 444
+      }
+    ]
   },
   {
     "source_file": "Screenshot_23.png",
@@ -752,7 +874,19 @@
         "confidence": 91.06451612903226,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 494
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 410
+      }
+    ]
   },
   {
     "source_file": "Screenshot_24.png",
@@ -806,7 +940,19 @@
         "confidence": 88.94285714285714,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 740
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 615
+      }
+    ]
   },
   {
     "source_file": "Screenshot_25.png",
@@ -860,7 +1006,19 @@
         "confidence": 90.12903225806451,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 888
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 1145
+      }
+    ]
   },
   {
     "source_file": "Screenshot_28.png",
@@ -914,7 +1072,19 @@
         "confidence": 87.59375,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 2050
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 1000
+      }
+    ]
   },
   {
     "source_file": "Screenshot_26.png",
@@ -968,7 +1138,19 @@
         "confidence": 88.85714285714286,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 1717
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 1333
+      }
+    ]
   },
   {
     "source_file": "Screenshot_29.png",
@@ -1020,7 +1202,19 @@
         "confidence": 90.12903225806451,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 1111
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 923
+      }
+    ]
   },
   {
     "source_file": "Screenshot_30.png",
@@ -1074,7 +1268,19 @@
         "confidence": 91.12903225806451,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 1667
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 1384
+      }
+    ]
   },
   {
     "source_file": "Screenshot_3.png",
@@ -1128,7 +1334,19 @@
         "confidence": 88.62068965517241,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 117
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 151
+      }
+    ]
   },
   {
     "source_file": "Screenshot_32.png",
@@ -1182,7 +1400,14 @@
         "confidence": 89.59375,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 1999
+      }
+    ]
   },
   {
     "source_file": "Screenshot_33.png",
@@ -1236,7 +1461,24 @@
         "confidence": 87.78125,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 40
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 20
+      }
+    ]
   },
   {
     "source_file": "Screenshot_34.png",
@@ -1290,7 +1532,24 @@
         "confidence": 89.09677419354838,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 60
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 29
+      }
+    ]
   },
   {
     "source_file": "Screenshot_36.png",
@@ -1344,7 +1603,24 @@
         "confidence": 89.31428571428572,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 135
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 66
+      }
+    ]
   },
   {
     "source_file": "Screenshot_35.png",
@@ -1398,7 +1674,24 @@
         "confidence": 88.25,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 90
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 44
+      }
+    ]
   },
   {
     "source_file": "Screenshot_4.png",
@@ -1452,7 +1745,19 @@
         "confidence": 91.93333333333334,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 176
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 226
+      }
+    ]
   },
   {
     "source_file": "Screenshot_37.png",
@@ -1506,7 +1811,24 @@
         "confidence": 90,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 203
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 99
+      }
+    ]
   },
   {
     "source_file": "Screenshot_38.png",
@@ -1831,7 +2153,24 @@
         "confidence": 90,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 170
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 132
+      }
+    ]
   },
   {
     "source_file": "Screenshot_44.png",
@@ -1885,7 +2224,24 @@
         "confidence": 90.56521739130434,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 254
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 197
+      }
+    ]
   },
   {
     "source_file": "Screenshot_45.png",
@@ -1939,7 +2295,24 @@
         "confidence": 89.62068965517241,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 382
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 296
+      }
+    ]
   },
   {
     "source_file": "Screenshot_47.png",
@@ -1993,7 +2366,24 @@
         "confidence": 91.46666666666667,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 247
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 205
+      }
+    ]
   },
   {
     "source_file": "Screenshot_46.png",
@@ -2047,7 +2437,24 @@
         "confidence": 90.06451612903226,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 165
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 137
+      }
+    ]
   },
   {
     "source_file": "Screenshot_48.png",
@@ -2099,7 +2506,24 @@
         "confidence": 90.35483870967742,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 370
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 308
+      }
+    ]
   },
   {
     "source_file": "Screenshot_5.png",
@@ -2153,7 +2577,19 @@
         "confidence": 91.24137931034483,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 263
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 339
+      }
+    ]
   },
   {
     "source_file": "Screenshot_49.png",
@@ -2207,7 +2643,19 @@
         "confidence": 89.3225806451613,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 197
+      }
+    ]
   },
   {
     "source_file": "Screenshot_50.png",
@@ -2261,7 +2709,19 @@
         "confidence": 87.96875,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 296
+      }
+    ]
   },
   {
     "source_file": "Screenshot_51.png",
@@ -2315,7 +2775,19 @@
         "confidence": 89.63333333333334,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 444
+      }
+    ]
   },
   {
     "source_file": "Screenshot_53.png",
@@ -2369,7 +2841,24 @@
         "confidence": 90.37142857142857,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 456
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 222
+      }
+    ]
   },
   {
     "source_file": "Screenshot_52.png",
@@ -2423,7 +2912,24 @@
         "confidence": 85.84375,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 304
+      },
+      {
+        "target_type": "Human",
+        "modifier_type": "Strength",
+        "value": 105
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 148
+      }
+    ]
   },
   {
     "source_file": "Screenshot_54.png",
@@ -2531,7 +3037,19 @@
         "confidence": 89.94117647058823,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 833
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 692
+      }
+    ]
   },
   {
     "source_file": "Screenshot_6.png",
@@ -2585,7 +3103,19 @@
         "confidence": 91.56666666666666,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 39
+      },
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 80
+      }
+    ]
   },
   {
     "source_file": "Screenshot_62.png",
@@ -3070,7 +3600,19 @@
         "confidence": 91.22727272727273,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 120
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 59
+      }
+    ]
   },
   {
     "source_file": "Screenshot_70.png",
@@ -3287,7 +3829,19 @@
         "confidence": 87.7741935483871,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 169
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 216
+      }
+    ]
   },
   {
     "source_file": "Screenshot_80.png",
@@ -3338,7 +3892,19 @@
         "confidence": 91.88235294117646,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Dragon",
+        "modifier_type": "Strength",
+        "value": 162
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 223
+      }
+    ]
   },
   {
     "source_file": "Screenshot_84.png",
@@ -3390,7 +3956,19 @@
         "confidence": 90.54285714285714,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Dragon",
+        "modifier_type": "Strength",
+        "value": 1247
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 701
+      }
+    ]
   },
   {
     "source_file": "Screenshot_9.png",
@@ -3444,7 +4022,19 @@
         "confidence": 91.39393939393939,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 270
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 132
+      }
+    ]
   },
   {
     "source_file": "Screenshot_91.png",
@@ -3496,7 +4086,19 @@
         "confidence": 90.24242424242425,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 1435
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 1486
+      }
+    ]
   },
   {
     "source_file": "Screenshot_92.png",
@@ -3548,7 +4150,19 @@
         "confidence": 90.76666666666667,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Dragon",
+        "modifier_type": "Strength",
+        "value": 1871
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 1051
+      }
+    ]
   },
   {
     "source_file": "Screenshot_93.png",
@@ -3600,7 +4214,19 @@
         "confidence": 89.61290322580645,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Giant",
+        "modifier_type": "Strength",
+        "value": 1000
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 1922
+      }
+    ]
   },
   {
     "source_file": "Screenshot_99.png",
@@ -3652,7 +4278,19 @@
         "confidence": 91.11764705882354,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Elemental",
+        "modifier_type": "Strength",
+        "value": 1008
+      },
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 940
+      }
+    ]
   },
   {
     "source_file": "Screenshot_11.png",
@@ -3706,7 +4344,19 @@
         "confidence": 90.87096774193549,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 65
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 54
+      }
+    ]
   },
   {
     "source_file": "Screenshot_13.png",
@@ -3760,7 +4410,19 @@
         "confidence": 92.86666666666666,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 146
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 122
+      }
+    ]
   },
   {
     "source_file": "Screenshot_15.png",
@@ -3814,7 +4476,19 @@
         "confidence": 89.87096774193549,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 329
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 273
+      }
+    ]
   },
   {
     "source_file": "Screenshot_18.png",
@@ -3866,7 +4540,14 @@
         "confidence": 89.06451612903226,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 888
+      }
+    ]
   },
   {
     "source_file": "Screenshot_27.png",
@@ -3920,7 +4601,19 @@
         "confidence": 88.16129032258064,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 1367
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 667
+      }
+    ]
   },
   {
     "source_file": "Screenshot_31.png",
@@ -3974,7 +4667,14 @@
         "confidence": 89.94285714285714,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 1333
+      }
+    ]
   },
   {
     "source_file": "Screenshot_55.png",
@@ -4028,7 +4728,19 @@
         "confidence": 87.47058823529412,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 572
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 444
+      }
+    ]
   },
   {
     "source_file": "Screenshot_55.png",
@@ -4082,7 +4794,19 @@
         "confidence": 87.47058823529412,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 859
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 667
+      }
+    ]
   },
   {
     "source_file": "Screenshot_56.png",
@@ -4136,7 +4860,19 @@
         "confidence": 90.54838709677419,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 683
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 333
+      }
+    ]
   },
   {
     "source_file": "Screenshot_57.png",
@@ -4190,7 +4926,19 @@
         "confidence": 92.79310344827586,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 1025
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 500
+      }
+    ]
   },
   {
     "source_file": "Screenshot_58.png",
@@ -4244,7 +4992,19 @@
         "confidence": 90.76470588235294,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 555
+      },
+      {
+        "target_type": "Siege",
+        "modifier_type": "Strength",
+        "value": 461
+      }
+    ]
   },
   {
     "source_file": "Screenshot_61.png",
@@ -4298,7 +5058,14 @@
         "confidence": 89,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 1000
+      }
+    ]
   },
   {
     "source_file": "Screenshot_60.png",
@@ -4352,7 +5119,14 @@
         "confidence": 91.02777777777777,
         "method": "phased_stats_extraction_clahe_enhancement_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 667
+      }
+    ]
   },
   {
     "source_file": "Screenshot_73.png",
@@ -4404,7 +5178,19 @@
         "confidence": 86.93939393939394,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 185
+      },
+      {
+        "target_type": "Giant",
+        "modifier_type": "Strength",
+        "value": 72
+      }
+    ]
   },
   {
     "source_file": "Screenshot_76.png",
@@ -4456,7 +5242,19 @@
         "confidence": 89.375,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Elemental",
+        "modifier_type": "Strength",
+        "value": 608
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 258
+      }
+    ]
   },
   {
     "source_file": "Screenshot_75.png",
@@ -4508,7 +5306,19 @@
         "confidence": 91.72222222222223,
         "method": "phased_stats_extraction_clahe_enhancement_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Elemental",
+        "modifier_type": "Strength",
+        "value": 324
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 253
+      }
+    ]
   },
   {
     "source_file": "Screenshot_77.png",
@@ -4560,7 +5370,19 @@
         "confidence": 89.41176470588235,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 729
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 570
+      }
+    ]
   },
   {
     "source_file": "Screenshot_78.png",
@@ -4612,7 +5434,19 @@
         "confidence": 89.5625,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Giant",
+        "modifier_type": "Strength",
+        "value": 667
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 1281
+      }
+    ]
   },
   {
     "source_file": "Screenshot_79.png",
@@ -4664,7 +5498,19 @@
         "confidence": 90.2258064516129,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 144
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 113
+      }
+    ]
   },
   {
     "source_file": "Screenshot_8.png",
@@ -4718,7 +5564,19 @@
         "confidence": 86.42424242424242,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 180
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 88
+      }
+    ]
   },
   {
     "source_file": "Screenshot_81.png",
@@ -4770,7 +5628,19 @@
         "confidence": 88.93939393939394,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 162
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 415
+      }
+    ]
   },
   {
     "source_file": "Screenshot_83.png",
@@ -4822,7 +5692,19 @@
         "confidence": 91.35483870967742,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Dragon",
+        "modifier_type": "Strength",
+        "value": 911
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 387
+      }
+    ]
   },
   {
     "source_file": "Screenshot_82.png",
@@ -4873,7 +5755,19 @@
         "confidence": 91.96969696969697,
         "method": "phased_stats_extraction_clahe_enhancement_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 486
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 380
+      }
+    ]
   },
   {
     "source_file": "Screenshot_85.png",
@@ -4924,7 +5818,19 @@
         "confidence": 92.96774193548387,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 72
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 185
+      }
+    ]
   },
   {
     "source_file": "Screenshot_86.png",
@@ -4976,7 +5882,19 @@
         "confidence": 90.06060606060606,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Elemental",
+        "modifier_type": "Strength",
+        "value": 270
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 115
+      }
+    ]
   },
   {
     "source_file": "Screenshot_87.png",
@@ -5028,7 +5946,19 @@
         "confidence": 92.5,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 334
+      },
+      {
+        "target_type": "Fortification",
+        "modifier_type": "Strength",
+        "value": 243
+      }
+    ]
   },
   {
     "source_file": "Screenshot_88.png",
@@ -5080,7 +6010,19 @@
         "confidence": 91,
         "method": "phased_stats_extraction_bilateral_filter_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Fortification",
+        "modifier_type": "Strength",
+        "value": 486
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 380
+      }
+    ]
   },
   {
     "source_file": "Screenshot_89.png",
@@ -5132,7 +6074,19 @@
         "confidence": 90.93939393939394,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 547
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 752
+      }
+    ]
   },
   {
     "source_file": "Screenshot_90.png",
@@ -5184,7 +6138,19 @@
         "confidence": 88.68571428571428,
         "method": "phased_stats_extraction"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Beast",
+        "modifier_type": "Strength",
+        "value": 957
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 991
+      }
+    ]
   },
   {
     "source_file": "Screenshot_94.png",
@@ -5236,7 +6202,19 @@
         "confidence": 91.53125,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 144
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 113
+      }
+    ]
   },
   {
     "source_file": "Screenshot_95.png",
@@ -5288,7 +6266,19 @@
         "confidence": 93,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 108
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 277
+      }
+    ]
   },
   {
     "source_file": "Screenshot_96.png",
@@ -5340,12 +6330,24 @@
         "confidence": 91.57142857142857,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 253
+      },
+      {
+        "target_type": "Giant",
+        "modifier_type": "Strength",
+        "value": 324
+      }
+    ]
   },
   {
     "source_file": "Screenshot_97.png",
     "extracted_text": "    JUNGLE DESTROYER  | Beast, Melee unit & Strength: 130,000 @ Health: 390,000 | &@ Strength: 130,000 @ Health: 390,000   Dominance: 34 Speed: 36 Initiative: 10 Food consumption: 680 Carrying capacity: 6,800 Revival cost after an attack: $44 Gold Revival cost after defending: 5440 Silver      ",
-    "name": "JUNGLE DESTORYER",
+    "name": "JUNGLE DESTROYER",
     "unit_types": [
       "Beast",
       "Melee"
@@ -5392,7 +6394,19 @@
         "confidence": 90.25714285714285,
         "method": "phased_stats_extraction_high_contrast_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Dragon",
+        "modifier_type": "Strength",
+        "value": 243
+      },
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 623
+      }
+    ]
   },
   {
     "source_file": "Screenshot_98.png",
@@ -5443,7 +6457,19 @@
         "confidence": 90.13333333333334,
         "method": "phased_stats_extraction_basic_early_stop"
       }
-    }
+    },
+    "attack_modifiers": [
+      {
+        "target_type": "Fortification",
+        "modifier_type": "Strength",
+        "value": 547
+      },
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 752
+      }
+    ]
   },
   {
     "name": "LEGIONARY",
@@ -5557,5 +6583,35 @@
     "carrying_capacity": 100,
     "revival_cost_gold": 8,
     "revival_cost_silver": 80
+  },
+  {
+    "name": "HEAVY ARBALESTER VII",
+    "unit_types": [
+      "Human",
+      "Ranged",
+      "Guardsman"
+    ],
+    "cost_type": "Leadership",
+    "health": 5100,
+    "strength": 1700,
+    "leadership_cost": 1,
+    "dominance_cost": 0,
+    "authority_cost": 0,
+    "food_consumption": 5,
+    "carrying_capacity": 100,
+    "revival_cost_gold": 4,
+    "revival_cost_silver": 40,
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 763
+      },
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 592
+      }
+    ]
   }
 ]
