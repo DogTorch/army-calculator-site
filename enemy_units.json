@@ -1,0 +1,54 @@
+[
+  {
+    "name": "DARK ELF",
+    "unit_types": ["Flying", "Epic Monster"],
+    "health": 210000,
+    "strength": 70000,
+    "attack_modifiers": [
+      {
+        "target_type": "Melee",
+        "modifier_type": "Strength",
+        "value": 56000
+      }
+    ]
+  },
+  {
+    "name": "DRAUG MAGE",
+    "unit_types": ["Ranged", "Epic Monster"],
+    "health": 2160,
+    "strength": 720,
+    "attack_modifiers": [
+      {
+        "target_type": "Flying",
+        "modifier_type": "Strength",
+        "value": 360
+      }
+    ]
+  },
+  {
+    "name": "JORMUNGANDR",
+    "unit_types": ["Melee", "Epic Monster"],
+    "health": 300000,
+    "strength": 100000,
+    "attack_modifiers": [
+      {
+        "target_type": "Mounted",
+        "modifier_type": "Strength",
+        "value": 45000
+      }
+    ]
+  },
+  {
+    "name": "VALKYRIE",
+    "unit_types": ["Mounted", "Epic Monster"],
+    "health": 171000,
+    "strength": 57000,
+    "attack_modifiers": [
+      {
+        "target_type": "Ranged",
+        "modifier_type": "Strength",
+        "value": 34200
+      }
+    ]
+  }
+]
